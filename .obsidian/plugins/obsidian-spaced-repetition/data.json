@@ -1,0 +1,57 @@
+{
+  "settings": {
+    "flashcardEasyText": "简单",
+    "flashcardGoodText": "记得",
+    "flashcardHardText": "较难",
+    "flashcardTags": [
+      "#flashcards"
+    ],
+    "convertFoldersToDecks": true,
+    "cardCommentOnSameLine": false,
+    "burySiblingCards": true,
+    "showContextInCards": false,
+    "flashcardHeightPercentage": 70,
+    "flashcardWidthPercentage": 40,
+    "showFileNameInFileLink": true,
+    "randomizeCardOrder": false,
+    "convertHighlightsToClozes": true,
+    "convertBoldTextToClozes": false,
+    "convertCurlyBracketsToClozes": false,
+    "singleLineCardSeparator": "：：",
+    "singleLineReversedCardSeparator": "：：：",
+    "multilineCardSeparator": "%%？？%%",
+    "multilineReversedCardSeparator": "%%？？？%%",
+    "enableNoteReviewPaneOnStartup": true,
+    "tagsToReview": [
+      "#project",
+      "#paper",
+      "#book",
+      "#FAQ",
+      "#review",
+      "#progressive",
+      "#Inbox",
+      "#webclips"
+    ],
+    "noteFoldersToIgnore": [
+      "zob_config",
+      "zob_attach",
+      "zob_memos"
+    ],
+    "openRandomNote": true,
+    "autoNextNote": false,
+    "disableFileMenuReviewOptions": true,
+    "maxNDaysNotesReviewQueue": 365,
+    "initiallyExpandAllSubdecksInTree": true,
+    "baseEase": 250,
+    "lapsesIntervalChange": 0.5,
+    "easyBonus": 1.3,
+    "maximumInterval": 36525,
+    "maxLinkFactor": 1,
+    "showDebugMessages": false
+  },
+  "buryDate": "2023-01-30",
+  "buryList": [
+    "8730c444df819"
+  ],
+  "historyDeck": "B 单词背诵"
+}

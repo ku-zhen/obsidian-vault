@@ -1,0 +1,188 @@
+{
+  "main": {
+    "id": "ffa409947b36a5ac",
+    "type": "split",
+    "children": [
+      {
+        "id": "0834844b07302a22",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e9ed0f8d1fb3465b",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "obsidian-projects",
+              "state": {},
+              "pinned": true
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7cbf2b796c66f09d",
+    "type": "split",
+    "children": [
+      {
+        "id": "a367dcf2d9386f66",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6ec649879cdcf8de",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "b7634e5916d5dd6a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime"
+              }
+            }
+          },
+          {
+            "id": "fe1ba3cc786ff776",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "5ae805d8988425ad",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e83e121fe19f7166",
+            "type": "leaf",
+            "state": {
+              "type": "memos_view",
+              "state": {}
+            }
+          },
+          {
+            "id": "584c0c30bcde9ff2",
+            "type": "leaf",
+            "state": {
+              "type": "timeline",
+              "state": {}
+            }
+          },
+          {
+            "id": "c42f3f9ad5f9938c",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "zob_config/每日计划安排.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              },
+              "pinned": true
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 287.5
+  },
+  "right": {
+    "id": "6c822d89fd796cb1",
+    "type": "split",
+    "children": [
+      {
+        "id": "f8fd6d983f684d8a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b9443d38444386dd",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": true,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "byModifiedTime"
+              }
+            }
+          },
+          {
+            "id": "7db81aa5ab8e4299",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "zob_config/计划追踪.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              },
+              "pinned": true
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 301.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "obsidian-booknote-plugin:书库": false,
+      "canvas:新建白板": false,
+      "obsidian-projects:Open projects": false,
+      "obsidian-spaced-repetition:复习卡片": false,
+      "cmdr:创建笔记": false,
+      "cmdr:边栏切换": false,
+      "cmdr:切换明暗模式": false,
+      "daily-notes:打开/创建今天的日记": true,
+      "command-palette:打开命令面板": true,
+      "workspaces:管理工作区布局": true,
+      "obsidian-memos:Memos": false
+    }
+  },
+  "active": "e9ed0f8d1fb3465b",
+  "lastOpenFiles": [
+    "zob_config/工作记录.md",
+    "zob_config/每日计划安排.md",
+    "zob_config/计划日历.md",
+    "zob_config/计划追踪.md",
+    "0 任务管理收纳盒/📌 任务规划1.md",
+    "0 任务管理收纳盒/🗃️ Inbox.md",
+    "zob_config/我的书架.md",
+    "zob_config/工作记录.canvas",
+    "zob_config/计划日历.canvas",
+    "1 文献笔记收纳盒/书籍笔记/📙《论贪婪 论虚伪》.md"
+  ]
+}

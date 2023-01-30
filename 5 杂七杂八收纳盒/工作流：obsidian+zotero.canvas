@@ -1,0 +1,22 @@
+{
+	"nodes":[
+		{"id":"ecee9d1abd661c38","x":-498,"y":-83,"width":516,"height":167,"color":"5","type":"text","text":"### 插件地址\n- 论文笔记及元数据导出：\n\t-  https://github.com/retorquere/zotero-better-bibtex\n- 实现 zotero 到 obsidian 跳转：\n\t- https://github.com/daeh/zotero-markdb-connect"},
+		{"id":"48a13ecff2089f4d","x":-518,"y":-314,"width":556,"height":418,"type":"group","label":"Zotero"},
+		{"id":"24c9d3e2c9a1a087","x":-132,"y":-290,"width":121,"height":60,"color":"1","type":"text","text":"Better BibTex"},
+		{"id":"c13371f0f36e368e","x":-133,"y":-195,"width":121,"height":60,"color":"2","type":"text","text":"MarkDBConnect"},
+		{"id":"2687cac3870a75e2","x":-422,"y":-245,"width":98,"height":60,"color":"6","type":"text","text":"个人文献库"},
+		{"id":"4d7a24c1b830dd79","x":142,"y":-314,"width":556,"height":418,"type":"group","label":"Obsidian"},
+		{"id":"48f58c544f8fddb0","x":162,"y":-83,"width":516,"height":167,"color":"5","type":"text","text":"### 插件地址\n- 社区插件市场\n- github：\n\t- https://github.com/hans/obsidian-citation-plugin"},
+		{"id":"b909e2c27bf6516f","x":195,"y":-290,"width":79,"height":56,"color":"1","type":"text","text":"citation"},
+		{"id":"8c696838dd946b21","x":381,"y":-197,"width":99,"height":60,"color":"6","type":"text","text":"个人笔记库"},
+		{"id":"ceea769f35e1f246","x":391,"y":-292,"width":79,"height":60,"color":"6","type":"text","text":"文献笔记"}
+	],
+	"edges":[
+		{"id":"1e0bf2b55b44c4e1","fromNode":"24c9d3e2c9a1a087","fromSide":"right","toNode":"b909e2c27bf6516f","toSide":"left","color":"1","label":"生成元数据"},
+		{"id":"67062f4d674f1c7b","fromNode":"2687cac3870a75e2","fromSide":"right","toNode":"24c9d3e2c9a1a087","toSide":"left","color":"1","label":"抓取元数据"},
+		{"id":"5061e9e851782d3c","fromNode":"c13371f0f36e368e","fromSide":"left","toNode":"2687cac3870a75e2","toSide":"right","color":"2","label":"添加标签"},
+		{"id":"f0b100cb380fbc85","fromNode":"b909e2c27bf6516f","fromSide":"right","toNode":"ceea769f35e1f246","toSide":"left","color":"1","label":"创建"},
+		{"id":"18e5e025ba00354e","fromNode":"8c696838dd946b21","fromSide":"left","toNode":"c13371f0f36e368e","toSide":"right","color":"2","label":"抓取元数据"},
+		{"id":"9006ca20068573cb","fromNode":"ceea769f35e1f246","fromSide":"bottom","toNode":"8c696838dd946b21","toSide":"top","color":"6"}
+	]
+}

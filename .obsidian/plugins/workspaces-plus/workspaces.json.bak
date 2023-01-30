@@ -1,0 +1,938 @@
+{
+  "workspaces": {
+    "主页": {
+      "main": {
+        "id": "ffa409947b36a5ac",
+        "type": "split",
+        "children": [
+          {
+            "id": "102016a9ad3c0a1f",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "b8211fe0b5fce605",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "zob_config/我的主页.md",
+                    "mode": "preview",
+                    "backlinks": true,
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "7cbf2b796c66f09d",
+        "type": "split",
+        "children": [
+          {
+            "id": "a367dcf2d9386f66",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "b9443d38444386dd",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": true,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "byModifiedTime"
+                  }
+                }
+              },
+              {
+                "id": "213b664bbece8aca",
+                "type": "leaf",
+                "state": {
+                  "type": "recent-files",
+                  "state": {}
+                }
+              },
+              {
+                "id": "8ffe3d47edbbfaea",
+                "type": "leaf",
+                "state": {
+                  "type": "review-queue-list-view",
+                  "state": {}
+                }
+              },
+              {
+                "id": "2c7f390eac801f57",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "b7634e5916d5dd6a",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "byModifiedTime"
+                  }
+                }
+              },
+              {
+                "id": "5ae805d8988425ad",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "zob_config/我的主页.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "f554a80f1965fdc3",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "zob_config/我的主页.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "4a2297e58f12a0c4",
+                "type": "leaf",
+                "state": {
+                  "type": "starred",
+                  "state": {}
+                }
+              }
+            ],
+            "currentTab": 4
+          }
+        ],
+        "direction": "horizontal",
+        "width": 262.5
+      },
+      "right": {
+        "id": "6c822d89fd796cb1",
+        "type": "split",
+        "children": [
+          {
+            "id": "f8fd6d983f684d8a",
+            "type": "tabs",
+            "dimension": 65.92317224287484,
+            "children": [
+              {
+                "id": "d7b5522cc5b790d9",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "zob_config/计划面板.md",
+                    "mode": "preview",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "00be4e86523083df",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "zob_config/工具面板.md",
+                    "mode": "preview",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "77774ccab2ee14ea",
+                "type": "leaf",
+                "state": {
+                  "type": "memos_view",
+                  "state": {}
+                }
+              },
+              {
+                "id": "eb8f58c166192c45",
+                "type": "leaf",
+                "state": {
+                  "type": "quiet-outline",
+                  "state": {}
+                }
+              },
+              {
+                "id": "b1464a9ae03dfe5c",
+                "type": "leaf",
+                "state": {
+                  "type": "git-view",
+                  "state": {}
+                }
+              }
+            ]
+          },
+          {
+            "id": "fa0c582e716c71d6",
+            "type": "tabs",
+            "dimension": 34.07682775712515,
+            "children": [
+              {
+                "id": "e749983e219ff8d8",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "zob_config/自选歌单.md",
+                    "mode": "preview",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 278.5
+      },
+      "active": "b8211fe0b5fce605"
+    },
+    "计划": {
+      "main": {
+        "id": "ffa409947b36a5ac",
+        "type": "split",
+        "children": [
+          {
+            "id": "2ac887913b17bbe2",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "7cbf2b796c66f09d",
+        "type": "split",
+        "children": [
+          {
+            "id": "a367dcf2d9386f66",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "b7634e5916d5dd6a",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {}
+                }
+              },
+              {
+                "id": "966d18a6e25ef226",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "9fbf17f00417e659",
+                "type": "leaf",
+                "state": {
+                  "type": "review-queue-list-view",
+                  "state": {}
+                }
+              },
+              {
+                "id": "bd76068a23651e06",
+                "type": "leaf",
+                "state": {
+                  "type": "starred",
+                  "state": {}
+                }
+              },
+              {
+                "id": "213b664bbece8aca",
+                "type": "leaf",
+                "state": {
+                  "type": "recent-files",
+                  "state": {}
+                }
+              },
+              {
+                "id": "01349728b71177fc",
+                "type": "leaf",
+                "state": {
+                  "type": "todo",
+                  "state": {}
+                }
+              },
+              {
+                "id": "1a3b532027d98e5c",
+                "type": "leaf",
+                "state": {
+                  "type": "memos_view",
+                  "state": {}
+                }
+              },
+              {
+                "id": "1c698bc9b05da413",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "zob_config/计划面板.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              }
+            ],
+            "currentTab": 5
+          }
+        ],
+        "direction": "horizontal",
+        "width": 285
+      },
+      "right": {
+        "id": "6c822d89fd796cb1",
+        "type": "split",
+        "children": [
+          {
+            "id": "f8fd6d983f684d8a",
+            "type": "tabs",
+            "dimension": 75.03121098626717,
+            "children": [
+              {
+                "id": "0b08afbcb5805b3b",
+                "type": "leaf",
+                "state": {
+                  "type": "quiet-outline",
+                  "state": {}
+                }
+              },
+              {
+                "id": "b9443d38444386dd",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": true,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "byModifiedTime"
+                  }
+                }
+              },
+              {
+                "id": "d7b5522cc5b790d9",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "zob_config/计划面板.md",
+                    "mode": "preview",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "03c55eebac5ac6dd",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {}
+                }
+              },
+              {
+                "id": "00be4e86523083df",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "zob_config/工具面板.md",
+                    "mode": "preview",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "b1464a9ae03dfe5c",
+                "type": "leaf",
+                "state": {
+                  "type": "git-view",
+                  "state": {}
+                }
+              },
+              {
+                "id": "a0577bdc22532674",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "zob_config/计划面板.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": true,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "9d2620274136bb0c",
+                "type": "leaf",
+                "state": {
+                  "type": "graph",
+                  "state": {}
+                }
+              }
+            ],
+            "currentTab": 2
+          },
+          {
+            "id": "4f513a33b57ca529",
+            "type": "tabs",
+            "dimension": 24.968789013732838,
+            "children": [
+              {
+                "id": "69e189224f4f8930",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "zob_config/自选歌单.md",
+                    "mode": "preview",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 289
+      },
+      "active": "d7b5522cc5b790d9"
+    },
+    "看板": {
+      "main": {
+        "id": "ffa409947b36a5ac",
+        "type": "split",
+        "children": [
+          {
+            "id": "f7c0f013f348473d",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "3e647a5d76fcd8c0",
+                "type": "leaf",
+                "state": {
+                  "type": "kanban",
+                  "state": {
+                    "file": "4 做做计划/00任务看板/任务看板.md"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "7cbf2b796c66f09d",
+        "type": "split",
+        "children": [
+          {
+            "id": "a367dcf2d9386f66",
+            "type": "tabs",
+            "dimension": 99.99999999999999,
+            "children": [
+              {
+                "id": "b9443d38444386dd",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "tag:#Linux",
+                    "matchingCase": false,
+                    "explainSearch": true,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "byModifiedTime"
+                  }
+                }
+              },
+              {
+                "id": "a0577bdc22532674",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "4 做做计划/00任务看板/任务看板.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": true,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "120a1fec4b896078",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "4 做做计划/00任务看板/任务看板.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "bd76068a23651e06",
+                "type": "leaf",
+                "state": {
+                  "type": "starred",
+                  "state": {}
+                }
+              },
+              {
+                "id": "8ffe3d47edbbfaea",
+                "type": "leaf",
+                "state": {
+                  "type": "review-queue-list-view",
+                  "state": {}
+                }
+              },
+              {
+                "id": "2c7f390eac801f57",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "b7634e5916d5dd6a",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "02e380a6a12604a7",
+                "type": "leaf",
+                "state": {
+                  "type": "graph",
+                  "state": {}
+                }
+              }
+            ],
+            "currentTab": 7
+          }
+        ],
+        "direction": "horizontal",
+        "width": 272.5
+      },
+      "right": {
+        "id": "6c822d89fd796cb1",
+        "type": "split",
+        "children": [
+          {
+            "id": "f8fd6d983f684d8a",
+            "type": "tabs",
+            "dimension": 72.00956937799043,
+            "children": [
+              {
+                "id": "d7b5522cc5b790d9",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "zob_config/计划面板.md",
+                    "mode": "preview",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "8bcb8df890291669",
+                "type": "leaf",
+                "state": {
+                  "type": "quiet-outline",
+                  "state": {}
+                }
+              },
+              {
+                "id": "77774ccab2ee14ea",
+                "type": "leaf",
+                "state": {
+                  "type": "memos_view",
+                  "state": {}
+                }
+              },
+              {
+                "id": "213b664bbece8aca",
+                "type": "leaf",
+                "state": {
+                  "type": "recent-files",
+                  "state": {}
+                }
+              },
+              {
+                "id": "00be4e86523083df",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "zob_config/工具面板.md",
+                    "mode": "preview",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "b1464a9ae03dfe5c",
+                "type": "leaf",
+                "state": {
+                  "type": "git-view",
+                  "state": {}
+                }
+              }
+            ]
+          },
+          {
+            "id": "fa0c582e716c71d6",
+            "type": "tabs",
+            "dimension": 27.990430622009573,
+            "children": [
+              {
+                "id": "e749983e219ff8d8",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "zob_config/自选歌单.md",
+                    "mode": "preview",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 282.5
+      },
+      "active": "3e647a5d76fcd8c0"
+    },
+    "工作": {
+      "main": {
+        "id": "ffa409947b36a5ac",
+        "type": "split",
+        "children": [
+          {
+            "id": "762687a5a87cba66",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "zob_config/我的主页.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "7cbf2b796c66f09d",
+        "type": "split",
+        "children": [
+          {
+            "id": "a367dcf2d9386f66",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "b7634e5916d5dd6a",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {}
+                }
+              },
+              {
+                "id": "2c7f390eac801f57",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "9fbf17f00417e659",
+                "type": "leaf",
+                "state": {
+                  "type": "review-queue-list-view",
+                  "state": {}
+                }
+              },
+              {
+                "id": "bd76068a23651e06",
+                "type": "leaf",
+                "state": {
+                  "type": "starred",
+                  "state": {}
+                }
+              },
+              {
+                "id": "213b664bbece8aca",
+                "type": "leaf",
+                "state": {
+                  "type": "recent-files",
+                  "state": {}
+                }
+              },
+              {
+                "id": "b9443d38444386dd",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "tag:#Linux",
+                    "matchingCase": false,
+                    "explainSearch": true,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "byModifiedTime"
+                  }
+                }
+              },
+              {
+                "id": "6087e7ba37d48aa8",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "zob_config/我的主页.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "a0577bdc22532674",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "zob_config/我的主页.md",
+                    "collapseAll": true,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              }
+            ],
+            "currentTab": 7
+          }
+        ],
+        "direction": "horizontal",
+        "width": 286
+      },
+      "right": {
+        "id": "6c822d89fd796cb1",
+        "type": "split",
+        "children": [
+          {
+            "id": "f8fd6d983f684d8a",
+            "type": "tabs",
+            "dimension": 75.03121098626717,
+            "children": [
+              {
+                "id": "0b08afbcb5805b3b",
+                "type": "leaf",
+                "state": {
+                  "type": "quiet-outline",
+                  "state": {}
+                }
+              },
+              {
+                "id": "01349728b71177fc",
+                "type": "leaf",
+                "state": {
+                  "type": "todo",
+                  "state": {}
+                }
+              },
+              {
+                "id": "1a3b532027d98e5c",
+                "type": "leaf",
+                "state": {
+                  "type": "memos_view",
+                  "state": {}
+                }
+              },
+              {
+                "id": "d7b5522cc5b790d9",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "zob_config/计划面板.md",
+                    "mode": "preview",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "03c55eebac5ac6dd",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {}
+                }
+              },
+              {
+                "id": "00be4e86523083df",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "zob_config/工具面板.md",
+                    "mode": "preview",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "b1464a9ae03dfe5c",
+                "type": "leaf",
+                "state": {
+                  "type": "git-view",
+                  "state": {}
+                }
+              },
+              {
+                "id": "1330819d9f159e24",
+                "type": "leaf",
+                "state": {
+                  "type": "localgraph",
+                  "state": {
+                    "file": "zob_config/我的主页.md",
+                    "options": {
+                      "collapse-filter": true,
+                      "search": "",
+                      "localJumps": 1,
+                      "localBacklinks": true,
+                      "localForelinks": true,
+                      "localInterlinks": false,
+                      "showTags": false,
+                      "showAttachments": false,
+                      "hideUnresolved": false,
+                      "collapse-color-groups": true,
+                      "colorGroups": [],
+                      "collapse-display": true,
+                      "showArrow": false,
+                      "textFadeMultiplier": 0,
+                      "nodeSizeMultiplier": 1,
+                      "lineSizeMultiplier": 1,
+                      "collapse-forces": true,
+                      "centerStrength": 0.518713248970312,
+                      "repelStrength": 10,
+                      "linkStrength": 1,
+                      "linkDistance": 250,
+                      "scale": 1.0000000000000007,
+                      "close": false
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "212b183e587129a9",
+            "type": "tabs",
+            "dimension": 24.968789013732838,
+            "children": [
+              {
+                "id": "e749983e219ff8d8",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "zob_config/自选歌单.md",
+                    "mode": "preview",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 283
+      },
+      "active": "762687a5a87cba66"
+    }
+  },
+  "active": "主页"
+}

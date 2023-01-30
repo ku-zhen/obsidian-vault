@@ -1,0 +1,9 @@
+{
+  "citationExportFormat": "biblatex",
+  "literatureNoteTitleTemplate": "📰《{{title}}》",
+  "literatureNoteFolder": "1 文献笔记收纳盒\\论文笔记",
+  "literatureNoteContentTemplate": "---\nciteKey: {{citekey}}\nentry: \"[Zotero link]({{zoteroSelectURI}})\"\nyear: {{year}}\nDOI: {{DOI}}\n\nbanner: \"<%tp.user.getrandomImage(\"zob_config/banners\")%>\"\ncreate: <% tp.date.now(\"YYYY-MM-DD\")%>\nupdate: <% tp.date.now(\"YYYY-MM-DD\")%>\nstatus: 待完成\npublish: false\npriority: \naliases: \n  - {{title}}\ntags: \n  - paper\n---\n\n> [!abstract]- Abstract\n> {{abstract}}\n\n> [!info] Basic Information\n>1. Title：{{title}}\n>2. Author：{{authorString}}\n>3. Entry：[Zotero link]({{zoteroSelectURI}}) [URL link]({{URL}}) [PDF link](<file:///{{entry.files}}>)\n>4. Other：{{year}} - {{containerTitle}}{{entry.data.fields.institution}}{{publisher}} {{publisherPlace}}{{eventPlace}}- {{entry.data.fields.series}} {{entry.data.fields.type}} \n\n>- 🌐 论文源码：\n>- 🚀 论文解读：\n>- 📑 相关笔记：\n\n\n\n***\n\n## ✈️内容总结\n\n### 重点归纳笔记\n\n⭐知识点 1：\n\n\n\n### 源码阅读笔记\n\n⭐读懂源码必备工具：\n\n\n## ✈️概念摘录\n\n### 概念汇集箱\n\n\n\n### 金句汇集箱\n\n",
+  "markdownCitationTemplate": "[[📰《{{title}}》]]",
+  "alternativeMarkdownCitationTemplate": "[]({{zoteroSelectURI}}) []({{URL}}) [](<file:///{{entry.files}}>)",
+  "citationExportPath": "zob_config\\BibLaTex\\我的文库.bib"
+}

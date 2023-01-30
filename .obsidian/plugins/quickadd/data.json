@@ -1,0 +1,326 @@
+{
+  "choices": [
+    {
+      "id": "27d06043-87de-47b1-a058-cf6ff596b9c1",
+      "name": "刷新面板",
+      "type": "Macro",
+      "command": true,
+      "macroId": "a28a3873-f6a7-45eb-8abe-0dc9d4b07215"
+    },
+    {
+      "id": "37e83b97-77b9-415d-af90-dfc24ee37ae4",
+      "name": "添加图书",
+      "type": "Macro",
+      "command": true,
+      "macroId": "aefa1c1c-3436-4462-bfea-3411d8308d2c"
+    },
+    {
+      "id": "389e6a49-fb4d-475b-834d-b5b1267c1fee",
+      "name": "隐藏工具栏",
+      "type": "Macro",
+      "command": true,
+      "macroId": "2fbe14c9-b7ba-47be-9f64-cf21b22c7f0e"
+    },
+    {
+      "id": "f4092686-395a-4905-886b-0c0017aeaf41",
+      "name": "创建笔记",
+      "type": "Template",
+      "command": true,
+      "templatePath": "zob_config/template/笔记模板/通用模板",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "0 编程知识",
+          "1 专业知识",
+          "2 文献笔记",
+          "3 问题卡片",
+          "4 做做计划",
+          "5 其他仓库"
+        ],
+        "chooseWhenCreatingNote": true,
+        "createInSameFolderAsActiveFile": false
+      },
+      "appendLink": false,
+      "incrementFileName": true,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "source"
+    },
+    {
+      "id": "b635bb02-9fd2-4a2a-8595-645ae747c0bf",
+      "name": "浮动大纲",
+      "type": "Macro",
+      "command": true,
+      "macroId": "482a52bb-d960-4a87-bea2-b92cde192129"
+    },
+    {
+      "id": "f63d7e01-f847-4d24-b201-402e5cd0ea64",
+      "name": "启动新项目",
+      "type": "Template",
+      "command": true,
+      "templatePath": "zob_config/template/计划模板/项目计划模板-kanban",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "未命名"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "0 项目管理收纳盒"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false
+      },
+      "appendLink": false,
+      "incrementFileName": true,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": false
+      },
+      "openFile": false,
+      "openFileInMode": "preview"
+    },
+    {
+      "id": "314105e5-25b7-40eb-b1bf-be9c3a0d3ca7",
+      "name": "切换明暗模式",
+      "type": "Macro",
+      "command": true,
+      "macroId": "e7f4614b-64ac-4426-8667-03744140df42"
+    },
+    {
+      "id": "5be18651-1cb8-4b90-8583-7a75775fd2b5",
+      "name": "新建看板",
+      "type": "Macro",
+      "command": true,
+      "macroId": "2a7757e9-db55-4038-9d92-3cb61c654371"
+    },
+    {
+      "id": "17fda22b-42d1-419c-8545-663f99fe38e5",
+      "name": "插入脚注",
+      "type": "Macro",
+      "command": true,
+      "macroId": "b11d575e-c2a0-4183-8e62-7fb35382b728"
+    }
+  ],
+  "macros": [
+    {
+      "name": "豆瓣读书",
+      "id": "aefa1c1c-3436-4462-bfea-3411d8308d2c",
+      "commands": [
+        {
+          "name": "bookfromdouban",
+          "type": "UserScript",
+          "id": "92608671-6537-4cbf-9c7e-6f2289e65d9d",
+          "path": "zob_config/template/script/bookfromdouban.js",
+          "settings": {}
+        },
+        {
+          "name": "豆瓣读书笔记",
+          "type": "NestedChoice",
+          "id": "39abc935-9da6-41f0-ad32-674f067b94bf",
+          "choice": {
+            "id": "d4ece824-3493-4a75-8303-d0312f2a1904",
+            "name": "豆瓣读书笔记",
+            "type": "Template",
+            "command": false,
+            "templatePath": "zob_config/template/数据模板/豆瓣图书.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "📙《{{VALUE:bookname}}》"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "1 文献笔记收纳盒/书籍笔记"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false
+            },
+            "appendLink": false,
+            "incrementFileName": true,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "刷新页面",
+      "id": "a28a3873-f6a7-45eb-8abe-0dc9d4b07215",
+      "commands": [
+        {
+          "name": "关闭当前面板",
+          "type": "Obsidian",
+          "id": "5e6b09dd-794b-443e-bcaf-ecf27ce1f7e0",
+          "commandId": "workspace:close"
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "da696b89-59a8-4c64-833b-561e34d86203",
+          "time": 10
+        },
+        {
+          "name": "重新打开上一个关闭的面板",
+          "type": "Obsidian",
+          "id": "3fd5ed39-ef42-4d18-9a9b-06d18d87f35b",
+          "commandId": "workspace:undo-close-pane"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "隐藏工具栏",
+      "id": "2fbe14c9-b7ba-47be-9f64-cf21b22c7f0e",
+      "commands": [
+        {
+          "name": "Editing Toolbar: Hide/show ",
+          "type": "Obsidian",
+          "id": "cebc76bb-7172-4027-b6b0-94567ee4c852",
+          "commandId": "editing-toolbar:hide-show-menu"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "主页工作区",
+      "id": "64522f4c-0ead-43fd-ad6e-60c6cd5e7418",
+      "commands": [
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "ad0f43f8-1e7d-471a-88f8-a51f2467b375",
+          "time": 500
+        },
+        {
+          "name": "Workspaces Plus: Load: 计划",
+          "type": "Obsidian",
+          "id": "50462437-b77a-4c8b-8798-aed9bee46a02",
+          "commandId": "workspaces-plus:计划"
+        }
+      ],
+      "runOnStartup": true
+    },
+    {
+      "name": "浮动大纲",
+      "id": "482a52bb-d960-4a87-bea2-b92cde192129",
+      "commands": [
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "b5d9799a-a006-494a-bf0b-3b9b96350a97",
+          "time": 100
+        },
+        {
+          "name": "floating toc: Hide/Show the Floating TOC panel",
+          "type": "Obsidian",
+          "id": "a7040edb-f753-4b5d-bdfa-d2f6400e5061",
+          "commandId": "floating-toc:hide-toc-panel"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "切换明暗模式",
+      "id": "e7f4614b-64ac-4426-8667-03744140df42",
+      "commands": [
+        {
+          "name": "SwitcLightdark",
+          "type": "UserScript",
+          "id": "da3bc4d3-cb98-4991-87c8-5bab590cf050",
+          "path": "zob_config/template/script/SwitcLightdark.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "新建看板",
+      "id": "2a7757e9-db55-4038-9d92-3cb61c654371",
+      "commands": [
+        {
+          "name": "新建看板",
+          "type": "NestedChoice",
+          "id": "36c79325-7bf8-4d58-be97-d2638f8142e9",
+          "choice": {
+            "id": "78662f4a-cf3e-409b-8032-a25b1cac87f4",
+            "name": "新建看板",
+            "type": "Template",
+            "command": false,
+            "templatePath": "zob_config/template/笔记模板/看板-代码空间.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "⚔ {{name}}"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "0 任务管理收纳盒/代码空间"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false
+            },
+            "appendLink": false,
+            "incrementFileName": true,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default"
+          }
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "e6b3bc90-c702-48db-b968-ea837a1b51ab",
+          "time": 50
+        },
+        {
+          "name": "Kanban: 在看板和 Markdown 模式之间进行切换",
+          "type": "Obsidian",
+          "id": "02101770-f9ad-44db-ab8f-36bca9c6b9b6",
+          "commandId": "obsidian-kanban:toggle-kanban-view"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "插入脚注",
+      "id": "b11d575e-c2a0-4183-8e62-7fb35382b728",
+      "commands": [
+        {
+          "name": "Footnote Shortcut: Insert and Navigate Footnote",
+          "type": "Obsidian",
+          "id": "7586087e-b269-4f66-8888-d74fb5a02efe",
+          "commandId": "obsidian-footnotes:insert-footnote"
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "c03004bf-9b4a-4802-b513-435d03b03fed",
+          "time": 50
+        }
+      ],
+      "runOnStartup": false
+    }
+  ],
+  "inputPrompt": "single-line",
+  "devMode": false
+}

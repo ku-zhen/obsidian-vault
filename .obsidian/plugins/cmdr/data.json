@@ -1,0 +1,155 @@
+{
+  "confirmDeletion": false,
+  "showAddCommand": false,
+  "debug": false,
+  "editorMenu": [
+    {
+      "id": "quickadd:choice:17fda22b-42d1-419c-8545-663f99fe38e5",
+      "icon": "corner-down-left",
+      "name": "插入脚注",
+      "mode": "any"
+    }
+  ],
+  "fileMenu": [
+    {
+      "id": "quickadd:choice:27d06043-87de-47b1-a058-cf6ff596b9c1",
+      "icon": "refresh-cw",
+      "name": "刷新当前页面",
+      "mode": "any"
+    }
+  ],
+  "leftRibbon": [
+    {
+      "id": "quickadd:choice:f4092686-395a-4905-886b-0c0017aeaf41",
+      "icon": "inbox",
+      "name": "创建笔记",
+      "mode": "any"
+    },
+    {
+      "id": "editing-toolbar:workplace-fullscreen-focus",
+      "icon": "align-horizontal-space-around",
+      "name": "边栏切换",
+      "mode": "any"
+    },
+    {
+      "id": "quickadd:choice:314105e5-25b7-40eb-b1bf-be9c3a0d3ca7",
+      "icon": "arrow-left-right",
+      "name": "切换明暗模式",
+      "mode": "any"
+    }
+  ],
+  "rightRibbon": [],
+  "titleBar": [
+    {
+      "id": "obsidian-editing-toolbar:workplace-fullscreen-focus",
+      "icon": "align-horizontal-space-around",
+      "name": "Obsidian Editing Toolbar: workplace-Fullscreen ",
+      "mode": "any"
+    },
+    {
+      "id": "obsidian-editing-toolbar:fullscreen-focus",
+      "icon": "fullscreen",
+      "name": "Obsidian Editing Toolbar: Fullscreen focus mode",
+      "mode": "any"
+    },
+    {
+      "id": "theme:use-dark",
+      "icon": "sunset",
+      "name": "使用深色模式",
+      "mode": "desktop"
+    },
+    {
+      "id": "theme:use-light",
+      "icon": "sunrise",
+      "name": "使用浅色模式",
+      "mode": "desktop"
+    },
+    {
+      "id": "privacy-glasses:toggle-privacy-glasses",
+      "icon": "eye-off",
+      "name": "Privacy Glasses: Toggle Privacy Glasses",
+      "mode": "desktop"
+    },
+    {
+      "id": "quickadd:choice:036370a4-4616-47e2-86e1-7b2befadbeb1",
+      "icon": "repeat-1",
+      "name": "QuickAdd: 加载主页",
+      "mode": "any"
+    }
+  ],
+  "statusBar": [],
+  "pageHeader": [
+    {
+      "id": "obsidian-spaced-repetition:srs-cram-flashcards-in-note",
+      "icon": "history",
+      "name": "集中复习此笔记中的卡片",
+      "mode": "any",
+      "color": "#8a8a8a"
+    }
+  ],
+  "macros": [
+    {
+      "macro": [
+        {
+          "action": 0,
+          "commandId": "obsidian-day-planner:app:unlink-day-planner-from-note"
+        }
+      ],
+      "name": "断开日任务",
+      "icon": "star",
+      "startup": false
+    },
+    {
+      "macro": [
+        {
+          "action": 0,
+          "commandId": "obsidian-day-planner:app:link-day-planner-to-note"
+        }
+      ],
+      "name": "追踪日任务",
+      "icon": "star",
+      "startup": false
+    }
+  ],
+  "explorer": [],
+  "hide": {
+    "statusbar": [
+      "obsidian-stille",
+      "privacy-glasses",
+      "enhanced-editing",
+      "enhanced-editing",
+      "enhanced-editing",
+      "backlink",
+      "editing-toolbar",
+      "various-complements"
+    ],
+    "leftRibbon": [
+      "Open quick switcher",
+      "Open today's daily note",
+      "Open command palette",
+      "Manage workspace layouts",
+      "Generate flashcards",
+      "书库",
+      "打开/创建今天的日记",
+      "打开命令面板",
+      "管理工作区布局",
+      "surfing-bookmark-manager",
+      "打开查词面板",
+      "打开新词面板",
+      "打开统计",
+      "Memos",
+      "打开快速切换"
+    ]
+  },
+  "spacing": "10",
+  "advancedToolbar": {
+    "rowHeight": 48,
+    "rowCount": 2,
+    "spacing": 0,
+    "buttonWidth": 48,
+    "columnLayout": false,
+    "mappedIcons": [],
+    "tooltips": false,
+    "heightOffset": 0
+  }
+}

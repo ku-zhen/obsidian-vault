@@ -1,0 +1,55 @@
+/*特定笔记title bar*/
+.nav-file-title[data-path$="工作记录.md"] {
+    display: none !;
+}
+
+/*文件夹隐藏*/
+.nav-folder-title[data-path$="zob_config"] {
+    display: none;
+}
+
+.nav-folder-title[data-path$="zob_attach"] {
+    display: none;
+}
+
+.nav-folder-title[data-path$="zob_memos"] {
+    display: none;
+}
+
+/*---------------------------------------------------------------------------------------*/
+/*插件美化*/
+/*部分插件标题栏隐藏*/
+.workspace-leaf-content[data-type=kanban]>.view-header {
+    display: none;
+}
+
+.workspace-leaf-content[data-type=obsidian-projects]>.view-header {
+    display: none;
+}
+
+.workspace-leaf-content[data-type=canvas]>.view-header {
+    display: none;
+}
+
+.workspace-leaf-content[data-type=memos_view]>.view-header {
+    display: none;
+}
+
+.workspace-leaf-content[data-type=diff-view]>.view-header {
+    display: none;
+}
+
+
+
+.workspace-leaf-content[data-type=langr-data-panel]>.view-header {
+    display: none;
+}
+
+.workspace-leaf-content[data-type=undefined]>.view-header {
+    /*custom frame 插件*/
+    display: none;
+}
+.workspace-leaf-content[data-type=book-view]>.view-header {
+    /*custom frame 插件*/
+    display: none;
+}

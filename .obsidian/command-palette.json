@@ -1,0 +1,13 @@
+{
+  "pinned": [
+    "editor:set-heading-3",
+    "editor:set-heading-4",
+    "obsidian-admonition:insert-callout",
+    "editor:toggle-bullet-list",
+    "editor:toggle-numbered-list",
+    "editor:toggle-code",
+    "editor:insert-link",
+    "editor:toggle-blockquote",
+    "obsidian-emoji-toolbar:emoji-picker:open-picker"
+  ]
+}

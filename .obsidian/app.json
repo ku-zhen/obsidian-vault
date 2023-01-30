@@ -1,0 +1,39 @@
+{
+  "legacyEditor": false,
+  "livePreview": true,
+  "attachmentFolderPath": "zob_attach",
+  "foldHeading": true,
+  "showLineNumber": false,
+  "foldIndent": true,
+  "promptDelete": false,
+  "readableLineLength": true,
+  "showUnsupportedFiles": true,
+  "newLinkFormat": "shortest",
+  "trashOption": "system",
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "defaultViewMode": "preview",
+  "strictLineBreaks": true,
+  "showFrontmatter": true,
+  "spellcheckLanguages": null,
+  "smartIndentList": true,
+  "useTab": false,
+  "alwaysUpdateLinks": true,
+  "rightToLeft": false,
+  "autoConvertHtml": false,
+  "newFileLocation": "root",
+  "userIgnoreFilters": [
+    "zob_imgsrc/",
+    "zob_config/",
+    "zob_attach/"
+  ],
+  "fileSortOrder": "byCreatedTime",
+  "useMarkdownLinks": false,
+  "showInlineTitle": false,
+  "showIndentGuide": false
+}

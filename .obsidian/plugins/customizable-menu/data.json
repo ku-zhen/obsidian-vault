@@ -1,0 +1,28 @@
+{
+  "menuCommands": [],
+  "hideTitles": [
+    "新看板",
+    "Git: Stage",
+    "Git: Unstage",
+    "将其设置为附件文件夹",
+    "Create new note from template",
+    "Inherit icon",
+    "Show in Quick Explorer",
+    "Link with tab...",
+    "Reading view",
+    "查找……",
+    "使用默认应用打开",
+    "复制 Obsidian 链接",
+    "Add field at section...",
+    "Add field at cursor",
+    "Add field in frontmatter",
+    "Add missing fields at section...",
+    "Add fileClass to *",
+    "Create project in folder",
+    "Add YAML property to all files in this folder (and subfolders)",
+    "将文件夹移动到……",
+    "在页面中显示反向链接",
+    "Open linked view",
+    "Field Options"
+  ]
+}

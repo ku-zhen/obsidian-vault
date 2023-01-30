@@ -1,0 +1,662 @@
+{
+  "groups": [
+    {
+      "loadAtStartup": true,
+      "disableOnStartup": false,
+      "delay": 0,
+      "id": "pg",
+      "name": "界面功能增强",
+      "plugins": [
+        {
+          "id": "buttons",
+          "name": "Buttons"
+        },
+        {
+          "id": "obsidian-custom-frames",
+          "name": "Custom Frames"
+        },
+        {
+          "id": "dataview",
+          "name": "Dataview"
+        },
+        {
+          "id": "file-explorer-note-count",
+          "name": "File Explorer Note Count"
+        },
+        {
+          "id": "obsidian-hider",
+          "name": "Hider"
+        },
+        {
+          "id": "obsidian-icon-folder",
+          "name": "Icon Folder"
+        },
+        {
+          "id": "quickadd",
+          "name": "QuickAdd"
+        },
+        {
+          "id": "cmdr",
+          "name": "Commander"
+        },
+        {
+          "id": "customizable-menu",
+          "name": "Customizable Menu"
+        },
+        {
+          "id": "obsidian-hide-sidebars-when-narrow",
+          "name": "Hide Sidebars on Window Resize"
+        },
+        {
+          "id": "obsidian-hotkeys-for-specific-files",
+          "name": "Hotkeys for specific files"
+        },
+        {
+          "id": "quick-explorer",
+          "name": "Quick Explorer"
+        },
+        {
+          "id": "darlal-switcher-plus",
+          "name": "Quick Switcher++"
+        },
+        {
+          "id": "obsidian-style-settings",
+          "name": "Style Settings"
+        },
+        {
+          "id": "templater-obsidian",
+          "name": "Templater"
+        },
+        {
+          "id": "workspaces-plus",
+          "name": "Workspaces Plus"
+        },
+        {
+          "id": "obsidian-echarts",
+          "name": "obsidian echarts"
+        },
+        {
+          "id": "obsidian-react-components",
+          "name": "React Components"
+        },
+        {
+          "id": "obsidian-day-planner",
+          "name": "Day Planner"
+        }
+      ],
+      "groupIds": [],
+      "generateCommands": false
+    },
+    {
+      "loadAtStartup": true,
+      "disableOnStartup": false,
+      "delay": 2,
+      "id": "pg0",
+      "name": "预览模式增强",
+      "plugins": [
+        {
+          "id": "obsidian-banners",
+          "name": "Banners"
+        },
+        {
+          "id": "obsidian-image-toolkit",
+          "name": "Image Toolkit"
+        },
+        {
+          "id": "obsidian-kanban",
+          "name": "Kanban"
+        },
+        {
+          "id": "obsidian-old-note-admonitor",
+          "name": "Old Note Admonitor"
+        }
+      ],
+      "groupIds": [],
+      "generateCommands": false
+    },
+    {
+      "loadAtStartup": true,
+      "disableOnStartup": false,
+      "delay": 10,
+      "id": "pg01",
+      "name": "编辑模式增强",
+      "plugins": [
+        {
+          "id": "obsidian-auto-link-title",
+          "name": "Auto Link Title"
+        },
+        {
+          "id": "better-fn",
+          "name": "Better footnote"
+        },
+        {
+          "id": "easy-typing-obsidian",
+          "name": "Easy Typing"
+        },
+        {
+          "id": "editing-toolbar",
+          "name": "Editing Toolbar"
+        },
+        {
+          "id": "obsidian-footnotes",
+          "name": "Footnote Shortcut"
+        },
+        {
+          "id": "make-md",
+          "name": "MAKE.md"
+        },
+        {
+          "id": "metadata-menu",
+          "name": "Metadata Menu"
+        },
+        {
+          "id": "obsidian-paste-image-rename",
+          "name": "Paste image rename"
+        },
+        {
+          "id": "obsidian-tidy-footnotes",
+          "name": "Tidy Footnotes"
+        },
+        {
+          "id": "surfing",
+          "name": "Surfing"
+        },
+        {
+          "id": "various-complements",
+          "name": "Various Complements"
+        },
+        {
+          "id": "obsidian-advanced-codeblock",
+          "name": "Advanced Codeblock"
+        },
+        {
+          "id": "cm-typewriter-scroll-obsidian",
+          "name": "Typewriter Scroll"
+        }
+      ],
+      "groupIds": [],
+      "generateCommands": false,
+      "assignedDevices": [
+        "桌面端"
+      ]
+    },
+    {
+      "loadAtStartup": false,
+      "disableOnStartup": false,
+      "delay": 25,
+      "id": "pgcanvas",
+      "name": "canvas🎨",
+      "plugins": [
+        {
+          "id": "canvas-mindmap",
+          "name": "Canvas Mindmap"
+        },
+        {
+          "id": "canvas-presentation",
+          "name": "Canvas Presentation"
+        },
+        {
+          "id": "link-nodes-in-canvas",
+          "name": "Link Nodes In Canvas"
+        },
+        {
+          "id": "canvas-randomnote",
+          "name": "Canvas Random Note"
+        },
+        {
+          "id": "obsidian-annotator",
+          "name": "Annotator"
+        },
+        {
+          "id": "obsidian-advanced-uri",
+          "name": "Advanced URI"
+        },
+        {
+          "id": "obsidian-markmind",
+          "name": "obsidian markmind"
+        }
+      ],
+      "groupIds": [],
+      "generateCommands": true,
+      "autoAdd": false
+    },
+    {
+      "loadAtStartup": false,
+      "disableOnStartup": true,
+      "delay": 2,
+      "id": "pg012",
+      "name": "实用工具🛠",
+      "plugins": [
+        {
+          "id": "obsidian-bulk-rename-plugin",
+          "name": "Bulk Rename"
+        },
+        {
+          "id": "number-headings-obsidian",
+          "name": "Number Headings"
+        },
+        {
+          "id": "obsidian-linter",
+          "name": "Linter"
+        },
+        {
+          "id": "obsidian42-brat",
+          "name": "Obsidian42 - BRAT"
+        },
+        {
+          "id": "obsidian-regex-replace",
+          "name": "Regex Find/Replace"
+        },
+        {
+          "id": "tag-wrangler",
+          "name": "Tag Wrangler"
+        },
+        {
+          "id": "Enhanced-editing",
+          "name": "ZH增强编辑"
+        },
+        {
+          "id": "flashcards-obsidian",
+          "name": "Flashcards"
+        },
+        {
+          "id": "remotely-save",
+          "name": "Remotely Save"
+        },
+        {
+          "id": "mysnippets-plugin",
+          "name": "MySnippets"
+        },
+        {
+          "id": "obsidian-textgenerator-plugin",
+          "name": "Text Generator"
+        },
+        {
+          "id": "obsidian-version-history-diff",
+          "name": "Version History Diff"
+        },
+        {
+          "id": "privacy-glasses",
+          "name": "Privacy Glasses"
+        },
+        {
+          "id": "obsidian-quiet-outline",
+          "name": "Quiet Outline"
+        },
+        {
+          "id": "obsidian-pandoc",
+          "name": "Pandoc Plugin"
+        }
+      ],
+      "groupIds": [],
+      "generateCommands": true
+    },
+    {
+      "loadAtStartup": true,
+      "disableOnStartup": false,
+      "delay": 3,
+      "id": "pg0123",
+      "name": "工作流拓展",
+      "plugins": [
+        {
+          "id": "obsidian-citation-plugin",
+          "name": "Citations"
+        },
+        {
+          "id": "obsidian-day-planner",
+          "name": "Day Planner"
+        },
+        {
+          "id": "obsidian-kanban",
+          "name": "Kanban"
+        },
+        {
+          "id": "obsidian-projects",
+          "name": "Projects"
+        },
+        {
+          "id": "metaedit",
+          "name": "MetaEdit"
+        }
+      ],
+      "groupIds": [],
+      "generateCommands": false
+    },
+    {
+      "loadAtStartup": false,
+      "disableOnStartup": false,
+      "delay": 2,
+      "id": "pg01234",
+      "name": "插件启停⚙",
+      "plugins": [
+        {
+          "id": "obsidian-admonition",
+          "name": "Admonition"
+        },
+        {
+          "id": "obsidian-advanced-codeblock",
+          "name": "Advanced Codeblock"
+        },
+        {
+          "id": "obsidian-auto-link-title",
+          "name": "Auto Link Title"
+        },
+        {
+          "id": "obsidian-banners",
+          "name": "Banners"
+        },
+        {
+          "id": "better-fn",
+          "name": "Better footnote"
+        },
+        {
+          "id": "obsidian-booknote-plugin",
+          "name": "BookNote"
+        },
+        {
+          "id": "obsidian-bulk-rename-plugin",
+          "name": "Bulk Rename"
+        },
+        {
+          "id": "buttons",
+          "name": "Buttons"
+        },
+        {
+          "id": "canvas-mindmap",
+          "name": "Canvas Mindmap"
+        },
+        {
+          "id": "obsidian-citation-plugin",
+          "name": "Citations"
+        },
+        {
+          "id": "oz-clear-unused-images",
+          "name": "Clear Unused Images"
+        },
+        {
+          "id": "cmdr",
+          "name": "Commander"
+        },
+        {
+          "id": "obsidian-contextual-typography",
+          "name": "Contextual Typography"
+        },
+        {
+          "id": "customizable-menu",
+          "name": "Customizable Menu"
+        },
+        {
+          "id": "dataview",
+          "name": "Dataview"
+        },
+        {
+          "id": "obsidian-day-planner",
+          "name": "Day Planner"
+        },
+        {
+          "id": "easy-typing-obsidian",
+          "name": "Easy Typing"
+        },
+        {
+          "id": "editing-toolbar",
+          "name": "Editing Toolbar"
+        },
+        {
+          "id": "file-explorer-note-count",
+          "name": "File Explorer Note Count"
+        },
+        {
+          "id": "flashcards-obsidian",
+          "name": "Flashcards"
+        },
+        {
+          "id": "floating-toc",
+          "name": "floating toc"
+        },
+        {
+          "id": "obsidian-footnotes",
+          "name": "Footnote Shortcut"
+        },
+        {
+          "id": "obsidian-view-mode-by-frontmatter",
+          "name": "Force note view mode"
+        },
+        {
+          "id": "hidden-folder-obsidian",
+          "name": "Hidden Folder"
+        },
+        {
+          "id": "obsidian-hide-sidebars-when-narrow",
+          "name": "Hide Sidebars on Window Resize"
+        },
+        {
+          "id": "obsidian-hider",
+          "name": "Hider"
+        },
+        {
+          "id": "obsidian-hotkeys-for-specific-files",
+          "name": "Hotkeys for specific files"
+        },
+        {
+          "id": "obsidian-icon-folder",
+          "name": "Icon Folder"
+        },
+        {
+          "id": "obsidian-icon-shortcodes",
+          "name": "Icon Shortcodes"
+        },
+        {
+          "id": "obsidian-image-toolkit",
+          "name": "Image Toolkit"
+        },
+        {
+          "id": "obsidian-kanban",
+          "name": "Kanban"
+        },
+        {
+          "id": "keyshots",
+          "name": "Keyshots"
+        },
+        {
+          "id": "obsidian-linter",
+          "name": "Linter"
+        },
+        {
+          "id": "make-md",
+          "name": "MAKE.md"
+        },
+        {
+          "id": "number-headings-obsidian",
+          "name": "Number Headings"
+        },
+        {
+          "id": "obsidian-git",
+          "name": "Obsidian Git"
+        },
+        {
+          "id": "obsidian-memos",
+          "name": "Obsidian Memos"
+        },
+        {
+          "id": "obsidian42-brat",
+          "name": "Obsidian42 - BRAT"
+        },
+        {
+          "id": "obsidian-old-note-admonitor",
+          "name": "Old Note Admonitor"
+        },
+        {
+          "id": "obsidian-paste-image-rename",
+          "name": "Paste image rename"
+        },
+        {
+          "id": "obsidian-projects",
+          "name": "Projects"
+        },
+        {
+          "id": "quick-explorer",
+          "name": "Quick Explorer"
+        },
+        {
+          "id": "darlal-switcher-plus",
+          "name": "Quick Switcher++"
+        },
+        {
+          "id": "quickadd",
+          "name": "QuickAdd"
+        },
+        {
+          "id": "obsidian-quiet-outline",
+          "name": "Quiet Outline"
+        },
+        {
+          "id": "recent-files-obsidian",
+          "name": "Recent Files"
+        },
+        {
+          "id": "obsidian-regex-replace",
+          "name": "Regex Find/Replace"
+        },
+        {
+          "id": "remotely-save",
+          "name": "Remotely Save"
+        },
+        {
+          "id": "surfing",
+          "name": "Surfing"
+        },
+        {
+          "id": "ob-table-enhancer",
+          "name": "Table Enhancer"
+        },
+        {
+          "id": "obsidian-table-generator",
+          "name": "Table Generator"
+        },
+        {
+          "id": "tag-wrangler",
+          "name": "Tag Wrangler"
+        },
+        {
+          "id": "templater-obsidian",
+          "name": "Templater"
+        },
+        {
+          "id": "obsidian-textgenerator-plugin",
+          "name": "Text Generator"
+        },
+        {
+          "id": "obsidian-tidy-footnotes",
+          "name": "Tidy Footnotes"
+        },
+        {
+          "id": "cm-typewriter-scroll-obsidian",
+          "name": "Typewriter Scroll"
+        },
+        {
+          "id": "various-complements",
+          "name": "Various Complements"
+        },
+        {
+          "id": "workspaces-plus",
+          "name": "Workspaces Plus"
+        },
+        {
+          "id": "Enhanced-editing",
+          "name": "ZH增强编辑"
+        },
+        {
+          "id": "metaedit",
+          "name": "MetaEdit"
+        },
+        {
+          "id": "obsidian-version-history-diff",
+          "name": "Version History Diff"
+        },
+        {
+          "id": "table-editor-obsidian",
+          "name": "Advanced Tables"
+        },
+        {
+          "id": "metadata-menu",
+          "name": "Metadata Menu"
+        },
+        {
+          "id": "canvas-css-class",
+          "name": "Canvas CSS class"
+        },
+        {
+          "id": "obsidian-react-components",
+          "name": "React Components"
+        },
+        {
+          "id": "obsidian-echarts",
+          "name": "obsidian echarts"
+        },
+        {
+          "id": "calendar",
+          "name": "Calendar"
+        },
+        {
+          "id": "mysnippets-plugin",
+          "name": "MySnippets"
+        },
+        {
+          "id": "obsidian-language-learner",
+          "name": "Language Learner"
+        },
+        {
+          "id": "obsidian-spaced-repetition",
+          "name": "Spaced Repetition"
+        },
+        {
+          "id": "obsidian-editor-shortcuts",
+          "name": "Code Editor Shortcuts"
+        }
+      ],
+      "groupIds": [],
+      "generateCommands": true,
+      "autoAdd": true
+    },
+    {
+      "loadAtStartup": true,
+      "disableOnStartup": false,
+      "delay": 25,
+      "id": "pg0123456",
+      "name": "其他",
+      "plugins": [
+        {
+          "id": "metadata-menu",
+          "name": "Metadata Menu"
+        },
+        {
+          "id": "metaedit",
+          "name": "MetaEdit"
+        }
+      ],
+      "groupIds": [],
+      "generateCommands": false
+    },
+    {
+      "loadAtStartup": false,
+      "disableOnStartup": false,
+      "delay": 2,
+      "id": "pg012345",
+      "name": "表格工具📊",
+      "plugins": [
+        {
+          "id": "ob-table-enhancer",
+          "name": "Table Enhancer"
+        }
+      ],
+      "groupIds": [],
+      "generateCommands": true
+    }
+  ],
+  "generateCommands": true,
+  "showNoticeOnGroupLoad": "short",
+  "devices": [
+    "移动端",
+    "桌面端"
+  ]
+}

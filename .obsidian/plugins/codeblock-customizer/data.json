@@ -1,0 +1,112 @@
+{
+  "bEnableLineNumbers": false,
+  "bActiveCodeblockLineHighlight": true,
+  "bActiveLineHighlight": false,
+  "bGutterHighlight": true,
+  "ExcludeLangs": "dataview",
+  "activeCodeBlockLineColor": "#83EF9F6E",
+  "activeLineColor": "#60460633",
+  "backgroundColor": "#EAEAEA85",
+  "highlightColor": "#E9BABA5C",
+  "bDisplayCodeBlockLanguage": false,
+  "gutterTextColor": "#6C6C6C",
+  "gutterBackgroundColor": "#EAEAEA85",
+  "SelectedTheme": "默认",
+  "header": {
+    "bHeaderBold": false,
+    "bHeaderItalic": false,
+    "bCodeblockLangBold": false,
+    "bCodeblockLangItalic": false,
+    "bAlwaysDisplayCodeblockLang": false,
+    "color": "#EAEAEAA1",
+    "textColor": "#080808A8",
+    "lineColor": "#C1C1C19C",
+    "codeBlockLangColor": "#00000000",
+    "codeBlockLangBackgroundColor": "#00808000"
+  },
+  "colorThemes": [
+    {
+      "name": "Dark Theme",
+      "colors": {
+        "activeCodeBlockLineColor": "#073642",
+        "activeLineColor": "#468eeb33",
+        "backgroundColor": "#002B36",
+        "highlightColor": "#054b5c",
+        "gutterTextColor": "#6c6c6c",
+        "gutterBackgroundColor": "#073642",
+        "header": {
+          "bHeaderBold": false,
+          "bHeaderItalic": false,
+          "bCodeblockLangBold": true,
+          "bCodeblockLangItalic": true,
+          "bAlwaysDisplayCodeblockLang": false,
+          "color": "#0a4554",
+          "textColor": "#DADADA",
+          "lineColor": "#46cced",
+          "codeBlockLangColor": "#000000",
+          "codeBlockLangBackgroundColor": "#008080"
+        }
+      }
+    },
+    {
+      "name": "Light Theme",
+      "colors": {
+        "activeCodeBlockLineColor": "#EDE8D6",
+        "activeLineColor": "#60460633",
+        "backgroundColor": "#FCF6E4",
+        "highlightColor": "#E9DFBA",
+        "gutterTextColor": "#6c6c6c",
+        "gutterBackgroundColor": "#EDE8D6",
+        "header": {
+          "bHeaderBold": false,
+          "bHeaderItalic": false,
+          "bCodeblockLangBold": true,
+          "bCodeblockLangItalic": true,
+          "bAlwaysDisplayCodeblockLang": false,
+          "color": "#D5CCB4",
+          "textColor": "#866704",
+          "lineColor": "#EDD489",
+          "codeBlockLangColor": "#C25F30",
+          "codeBlockLangBackgroundColor": "#B8B5AA"
+        }
+      }
+    },
+    {
+      "name": "我的",
+      "colors": {
+        "activeCodeBlockLineColor": "#83EF9F6E",
+        "activeLineColor": "#60460633",
+        "backgroundColor": "#EAEAEA85",
+        "highlightColor": "#E9DFBA5C",
+        "gutterTextColor": "#6C6C6C",
+        "gutterBackgroundColor": "#DCDCDCCC",
+        "header": {
+          "color": "#D3D3D382",
+          "textColor": "#303030",
+          "lineColor": "#6D6D6D",
+          "codeBlockLangColor": "#00000000",
+          "codeBlockLangBackgroundColor": "#00808000"
+        }
+      }
+    },
+    {
+      "name": "默认",
+      "colors": {
+        "activeCodeBlockLineColor": "#83EF9F6E",
+        "activeLineColor": "#60460633",
+        "backgroundColor": "#EAEAEA85",
+        "highlightColor": "#E9BABA5C",
+        "gutterTextColor": "#6C6C6C",
+        "gutterBackgroundColor": "#EAEAEA85",
+        "header": {
+          "color": "#EAEAEAA1",
+          "textColor": "#080808A8",
+          "lineColor": "#C1C1C19C",
+          "codeBlockLangColor": "#00000000",
+          "codeBlockLangBackgroundColor": "#00808000"
+        }
+      }
+    }
+  ],
+  "ThemeName": ""
+}

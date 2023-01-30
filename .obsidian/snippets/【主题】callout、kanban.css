@@ -1,0 +1,295 @@
+/* 自定义 callout blocks */
+/* 用 callout blocks 实现高亮块功能 */
+
+.callout[data-callout="ob-red-title"] {
+  --callout-color: 0, 0, 0, 0;
+}
+
+.callout[data-callout="ob-red-title"] .callout-title {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-size: 1.2em;
+  color: red;
+  background: transparent !important;
+}
+
+/*------------------------------------------------------------stickies2*/
+.callout[data-callout="stickies2"] {
+  box-shadow: none !important;
+  border-left: none !important;
+}
+
+.callout[data-callout="stickies2"] > .callout-title {
+  display: none !important;
+}
+
+.callout[data-callout="stickies2"] > .callout-content {
+  overflow: visible !important;
+  position: relative !important;
+  float: right;
+  box-shadow: 0 10px 10px 2px #9191912d !important;
+  width: max(180px, 100%);
+  max-width: 100%;
+  background-color: var(--stickies-color-2);
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(-2deg);
+  transition: all 2s ease;
+  z-index: 1;
+  padding: 20px;
+  margin-right: 0%;
+  margin-top: 10px;
+  color: black;
+}
+
+.callout[data-callout="stickies2"] > .callout-content::after {
+  content: "";
+  display: block;
+  height: 32px;
+  width: 2px;
+  position: absolute;
+  left: 50%;
+  top: -10px;
+  z-index: 1;
+  border-radius: 50%;
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  border: 1px;
+  box-shadow: inset -10px -10px 10px #f0b7a4, inset 3px 3px 5px;
+}
+
+.callout[data-callout="stickies2"][data-callout-metadata*="right"] {
+  width: max(180px, 30%);
+}
+
+.callout[data-callout="stickies2"][data-callout-metadata*="right"]
+  > .callout-content {
+  float: right;
+  max-width: 100%;
+}
+
+/*----------------------------------------------------------cssclass:kanban*/
+
+.kanban2 ul {
+  display: flex;
+  flex-direction: row;
+  border: 0px solid var(--p-kanban-border-color);
+  padding: 0rem;
+  border-radius: var(--radius-m);
+  flex-wrap: wrap;
+}
+
+.kanban2 ul > li .list-bullet:after {
+  display: none;
+}
+
+.kanban2 ul > li {
+  flex: 1 1 40%;
+  padding: 0.1em 1em 0.1em 0.8em;
+  margin: 0 0.3em 0.3em 0 !important;
+  list-style: none;
+  border: 1px solid var(--p-kanban-border-color);
+  border-left: 1px solid var(--p-kanban-border-color) !important;
+  border-radius: var(--radius-s);
+  word-wrap: break-word;
+  word-break: break-word;
+}
+
+.kanban2 ul li.task-list-item .task-list-item-checkbox {
+  margin-left: auto;
+}
+
+.kanban2 ul .list-collapse-indicator.collapse-indicator.collapse-icon::before {
+  color: var(--text-accent);
+  transition: transform 10ms linear 0s;
+}
+
+body.colorful-p-kanban2 .kanban2 ul > li:nth-of-type(8n + 1) {
+  background-color: var(--p-kanban-color-1);
+}
+
+body.colorful-p-kanban2 .kanban2 ul > li:nth-of-type(8n + 2) {
+  background-color: var(--p-kanban-color-2);
+}
+
+body.colorful-p-kanban2 .kanban2 ul > li:nth-of-type(8n + 3) {
+  background-color: var(--p-kanban-color-3);
+}
+
+body.colorful-p-kanban2 .kanban2 ul > li:nth-of-type(8n + 4) {
+  background-color: var(--p-kanban-color-4);
+}
+
+body.colorful-p-kanban2 .kanban2 ul > li:nth-of-type(8n + 5) {
+  background-color: var(--p-kanban-color-5);
+}
+
+body.colorful-p-kanban2 .kanban2 ul > li:nth-of-type(8n + 6) {
+  background-color: var(--p-kanban-color-6);
+}
+
+body.colorful-p-kanban2 .kanban2 ul > li:nth-of-type(8n + 7) {
+  background-color: var(--p-kanban-color-7);
+}
+
+body.colorful-p-kanban2 .kanban2 ul > li:nth-of-type(8n) {
+  background-color: var(--p-kanban-color-8);
+}
+
+.canvas-node-container .kanban2 ul > li:nth-of-type(n) {
+  backdrop-filter: none;
+}
+
+.kanban2 ul > li:nth-of-type(n) {
+  background-color: var(--p-kanban-color-simple);
+  padding-left: 1em;
+  backdrop-filter: blur(calc(var(--blur-p-kanban-frosted-glass) * 2px));
+}
+
+.kanban2 ul:first-child > li:nth-of-type(8n + 1) {
+  border-top: 6px solid var(--p-kanban-color-1) !important;
+}
+
+.kanban2 ul:first-child > li:nth-of-type(8n + 2) {
+  border-top: 6px solid var(--p-kanban-color-2) !important;
+}
+
+.kanban2 ul:first-child > li:nth-of-type(8n + 3) {
+  border-top: 6px solid var(--p-kanban-color-3) !important;
+}
+
+.kanban2 ul:first-child > li:nth-of-type(8n + 4) {
+  border-top: 6px solid var(--p-kanban-color-4) !important;
+}
+
+.kanban2 ul:first-child > li:nth-of-type(8n + 5) {
+  border-top: 6px solid var(--p-kanban-color-5) !important;
+}
+
+.kanban2 ul:first-child > li:nth-of-type(8n + 6) {
+  border-top: 6px solid var(--p-kanban-color-6) !important;
+}
+
+.kanban2 ul:first-child > li:nth-of-type(8n + 7) {
+  border-top: 6px solid var(--p-kanban-color-7) !important;
+}
+
+.kanban2 ul:first-child > li:nth-of-type(8n) {
+  border-top: 6px solid var(--p-kanban-color-8) !important;
+}
+
+body.simple-p-kanban2 .kanban2 ul:first-child > li:nth-of-type(n) {
+  border-top: none !important;
+}
+
+body:not(.remove-shadow-p-kanban2) .kanban2 ul > li:hover {
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1);
+  box-shadow: 0 3px 5px 0 var(--p-kanban-color-shadow),
+    0 3px 1px -3px var(--p-kanban-color-shadow),
+    2px 3px 3px 0 var(--p-kanban-color-shadow);
+}
+
+.kanban2 ul ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0rem;
+  margin-top: 0.5rem;
+  border-radius: 0;
+  border: 0;
+  background: none;
+}
+
+.kanban2 ul ul li:not(.task-list-item) {
+  width: 100%;
+  display: block;
+  background-color: var(--p-kanban-card-color-1) !important;
+}
+
+body.remove-shadow-p-kanban2 .kanban2 ul ul li:hover {
+  background: var(--p-kanban-card-color-2) !important;
+  border-color: var(--p-kanban-border-color) !important;
+  border-left: 1px solid var(--p-kanban-border-color) !important;
+}
+
+body.remove-shadow-p-kanban2.theme-dark .kanban2 ul ul li:hover {
+  border-color: #696969e1 !important;
+  border-left: 1px solid #696969e1 !important;
+}
+
+.kanban2 ul ul li .task-list-item-checkbox {
+  margin-left: 1.5rem !important;
+}
+
+.kanban2 ul ul ul {
+  margin-right: 0;
+}
+
+.kanban2 ul ul::before {
+  border-left: 0;
+}
+
+:is(.markdown-preview-view, .markdown-rendered).is-readable-line-width.kanban2
+  .markdown-preview-sizer
+  > div
+  > ul {
+  max-width: 100%;
+}
+
+.kanban2 :is(ol, ul).contains-task-list :is(ol, ul) {
+  position: initial;
+}
+
+.kanban2 :is(ol, ul).contains-task-list :is(ol, ul)::before {
+  all: initial;
+}
+
+.kanban2 ul > li.task-list-item {
+  flex: 1 1 40%;
+  padding: 0.1em 1em;
+  list-style: none;
+  border: 1px solid var(--p-kanban-border-color);
+  border-left: 1px solid var(--p-kanban-border-color) !important;
+  border-radius: var(--radius-s);
+  word-wrap: break-word;
+  word-break: break-word;
+  text-indent: 0.01em;
+}
+
+.kanban2 ul ul li.task-list-item {
+  width: 100%;
+  display: block;
+  padding-left: 2em;
+  text-indent: -3em;
+  background-color: var(--p-kanban2-card-color-1) !important;
+}
+
+.kanban2
+  ul
+  ul
+  li.task-list-item
+  .list-collapse-indicator.collapse-indicator.collapse-icon {
+  text-indent: -1em;
+}
+
+body:not(.default-icons)
+  .kanban2
+  li.task-list-item
+  .list-collapse-indicator.collapse-indicator.collapse-icon::before {
+  margin-left: -0.2em;
+}
+
+body:not(.default-icons)
+  .kanban2
+  li.task-list-item
+  .task-list-item.is-collapsed
+  .list-collapse-indicator.collapse-indicator.collapse-icon::before {
+  transform: translateX(-0.9em) translateY(-1em) rotate(-90deg);
+}
+
+body.colorful-p-kanban2 .kanban2 .task-list-item-checkbox {
+  border-color: var(--text-normal) !important;
+}

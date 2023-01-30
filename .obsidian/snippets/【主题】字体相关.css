@@ -1,0 +1,20 @@
+/*---------------------------文字排版*/
+/*文字两端对齐-主要用于英文*/
+.cm-s-obsidian,
+.markdown-preview-view {
+    text-align: justify;
+    hyphens: auto;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+.frontmatter-container {
+    word-break: keep-all;
+    word-wrap: keep-all;
+}
+
+/*----------------------------字体大小*/
+/*侧边栏Markdown字体大小*/
+.mod-right-split .markdown-preview-view, .mod-left-split .markdown-preview-view, .mod-right-split .markdown-source-view, .mod-left-split .markdown-source-view {
+    font-size: 0.9em;
+}

@@ -1,0 +1,45 @@
+{
+  "settings": {
+    "migrated": true,
+    "iconPacksPath": ".obsidian/plugins/obsidian-icon-folder/icons",
+    "fontSize": 16,
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "RiEdgeFill",
+      "RiNewspaperLine",
+      "RiInboxArchiveLine",
+      "RiAttachment2",
+      "RiImageLine"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraPadding": {
+      "top": 2,
+      "right": 2,
+      "bottom": 2,
+      "left": 2
+    },
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    }
+  },
+  "zob_config": "RiAttachment2",
+  "zob_config/template": "RiText",
+  "zob_zotero": "RiAttachment2",
+  "zob_config/BibLaTeX": "RiExternalLinkFill",
+  "zob_memos": "RiAttachment2",
+  "1 文献笔记收纳盒": "RiNewspaperLine",
+  "2 日常问题收纳盒": "RiBugFill",
+  "3 理工类型收纳盒": "RiSettings2Line",
+  "4 社科类型收纳盒": "RiHeartsLine",
+  "A 资源文件": "RiImageEditLine",
+  "zob_attach": "RiAttachment2",
+  "zob_config/banners": "RiImageLine",
+  "B 单词背诵": "RiEnglishInput",
+  "5 杂七杂八收纳盒": "RiInboxArchiveLine",
+  "0 任务管理收纳盒": "RiTaskLine",
+  "Z 网页剪藏": "RiEdgeFill"
+}

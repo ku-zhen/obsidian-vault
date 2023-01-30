@@ -1,0 +1,351 @@
+{
+  "slides:start": [],
+  "homepage:open-homepage": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Numpad0"
+    }
+  ],
+  "random-note": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Numpad2"
+    }
+  ],
+  "obsidian-statusbar-pomo:start-satusbar-pomo": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Numpad1"
+    }
+  ],
+  "obsidian-statusbar-pomo:pause-satusbar-pomo": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Numpad3"
+    }
+  ],
+  "app:go-forward": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Numpad3"
+    }
+  ],
+  "outline:open": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Numpad2"
+    }
+  ],
+  "app:go-back": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Numpad1"
+    }
+  ],
+  "editor:focus-left": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Numpad4"
+    }
+  ],
+  "editor:focus-right": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Numpad6"
+    }
+  ],
+  "editor:focus": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Numpad5"
+    }
+  ],
+  "obsidian-memos:open-memos": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Numpad8"
+    }
+  ],
+  "obsidian-excalidraw-plugin:insert-link": [],
+  "obsidian-citation-plugin:insert-citation": [],
+  "Enhanced-editing:cuti-format": [],
+  "Enhanced-editing:del-lines": [],
+  "tag-pane:open": [],
+  "easy-typing-obsidian:easy-typing-format-switch": [],
+  "editor:save-file": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "S"
+    }
+  ],
+  "quick-explorer:browse-current": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Q"
+    }
+  ],
+  "workspace:edit-file-title": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "N"
+    }
+  ],
+  "file-explorer:new-file": [],
+  "obsidian-footnotes:insert-footnote": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "6"
+    }
+  ],
+  "canvas-presentation:next-slide": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "ArrowLeft"
+    }
+  ],
+  "canvas-presentation:previous-slide": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "ArrowRight"
+    }
+  ],
+  "canvas-presentation:mark-slide-number": [],
+  "easy-typing-obsidian:easy-typing-format-article": [],
+  "easy-typing-obsidian:easy-typing-format-selection": [],
+  "easy-typing-obsidian:easy-typing-insert-codeblock": [],
+  "easy-typing-obsidian:easy-typing-delete-blank-line": [],
+  "Enhanced-editing:xiahua-text": [],
+  "Enhanced-editing:xiahua-format": [],
+  "Enhanced-editing:internal-link": [],
+  "Enhanced-editing:internal-link2": [],
+  "Enhanced-editing:cuti-text": [],
+  "Enhanced-editing:xieti-text": [],
+  "Enhanced-editing:xieti-format": [],
+  "Enhanced-editing:tag-text": [],
+  "Enhanced-editing:add-daima": [],
+  "Enhanced-editing:gaoliang-text": [],
+  "Enhanced-editing:gaoliang-format": [],
+  "Enhanced-editing:shanchu-text": [],
+  "Enhanced-editing:add-Line0": [],
+  "Enhanced-editing:shanchu-format": [],
+  "Enhanced-editing:open-up": [],
+  "Enhanced-editing:open-down": [],
+  "Enhanced-editing:copy-text": [],
+  "Enhanced-editing:add-lines": [],
+  "Enhanced-editing:biaoti0-text": [],
+  "Enhanced-editing:link-showname": [],
+  "Enhanced-editing:mouse-start": [],
+  "Enhanced-editing:mouse-right": [],
+  "Enhanced-editing:mouse-end": [],
+  "Enhanced-editing:biaoti1-text": [],
+  "Enhanced-editing:biaoti2-text": [],
+  "Enhanced-editing:biaoti3-text": [],
+  "Enhanced-editing:biaoti4-text": [],
+  "Enhanced-editing:biaoti5-text": [],
+  "Enhanced-editing:biaoti6-text": [],
+  "obsidian-another-quick-switcher:search-command_file-name-search": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "O"
+    }
+  ],
+  "obsidian-booknote-plugin:search-book": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "P"
+    }
+  ],
+  "editor:open-link-in-new-leaf": [],
+  "editor:swap-line-up": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "ArrowUp"
+    }
+  ],
+  "editor:swap-line-down": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "ArrowDown"
+    }
+  ],
+  "obsidian-editor-shortcuts:goToLineEnd": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "ArrowRight"
+    }
+  ],
+  "obsidian-editor-shortcuts:goToLineStart": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "ArrowLeft"
+    }
+  ],
+  "obsidian-editor-shortcuts:selectWordOrNextOccurrence": [],
+  "obsidian-editor-shortcuts:selectLine": [],
+  "obsidian-citation-plugin:open-literature-note": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "O"
+    }
+  ],
+  "obsidian-citation-plugin:update-bib-data": [],
+  "obsidian-editor-shortcuts:goToNextHeading": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "ArrowDown"
+    }
+  ],
+  "obsidian-editor-shortcuts:goToPrevHeading": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "ArrowUp"
+    }
+  ],
+  "obsidian-editor-shortcuts:goToNextLine": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "ArrowDown"
+    }
+  ],
+  "obsidian-editor-shortcuts:goToPrevLine": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "ArrowUp"
+    }
+  ],
+  "keyshots:add-carets-down": [],
+  "keyshots:add-carets-up": [],
+  "keyshots:duplicate-line-down": [],
+  "keyshots:duplicate-line-up": [],
+  "keyshots:insert-line-above": [],
+  "keyshots:encode-or-decode-uri": [],
+  "keyshots:insert-line-below": [],
+  "keyshots:join-selected-lines": [],
+  "keyshots:move-line-down": [],
+  "keyshots:move-line-up": [],
+  "keyshots:sort-selected-lines": [],
+  "keyshots:split-selections-on-new-line": [],
+  "keyshots:transform-from-to-snake-case": [],
+  "keyshots:transform-selections-to-lowercase": [],
+  "keyshots:transform-selections-to-titlecase": [],
+  "keyshots:transform-selections-to-uppercase": [],
+  "keyshots:trim-selections": [],
+  "obsidian-editor-shortcuts:selectAllOccurrences": [],
+  "various-complements:reload-custom-dictionaries": [],
+  "obsidian-editor-shortcuts:toggle-line-numbers": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "L"
+    }
+  ],
+  "editing-toolbar:workplace-fullscreen-focus": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "Q"
+    }
+  ],
+  "darlal-switcher-plus:switcher-plus:open": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "O"
+    }
+  ],
+  "editing-toolbar:hide-show-menu": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "H"
+    }
+  ],
+  "editing-toolbar:indent-list": [],
+  "editor:toggle-checklist-status": [],
+  "editor:cycle-list-checklist": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "L"
+    }
+  ],
+  "various-complements:show-suggestions": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "/"
+    }
+  ],
+  "editor:toggle-comments": []
+}

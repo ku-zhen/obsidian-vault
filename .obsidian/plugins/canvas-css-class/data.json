@@ -1,0 +1,22 @@
+{
+  "canvasAdded": [
+    {
+      "canvasPath": "zob_config/计划日历.canvas",
+      "canvasClass": [
+        "hide",
+        "hide-color"
+      ],
+      "appendMode": "workspace-leaf-content"
+    },
+    {
+      "canvasPath": "zob_config/工作记录.canvas",
+      "canvasClass": [
+        "hide",
+        "hide-color"
+      ],
+      "appendMode": "workspace-leaf-content"
+    }
+  ],
+  "logLevel": "none",
+  "defaultAppendMode": "workspace-leaf-content"
+}

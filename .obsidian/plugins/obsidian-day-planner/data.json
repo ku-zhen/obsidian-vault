@@ -1,0 +1,52 @@
+{
+  "customFolder": "Day Planners",
+  "mode": 1,
+  "mermaid": false,
+  "notesToDates": [
+    {
+      "notePath": "4 做做计划/每日计划.md",
+      "date": "Wed Dec 14 2022"
+    },
+    {
+      "notePath": "4 做做计划/每日计划.md",
+      "date": "Thu Dec 15 2022"
+    },
+    {
+      "notePath": "Day Planners/计划安排.md",
+      "date": "Sat Dec 31 2022"
+    },
+    {
+      "notePath": "Day Planners/计划安排.md",
+      "date": "Sun Jan 01 2023"
+    },
+    {
+      "notePath": "Day Planners/计划安排.md",
+      "date": "Mon Jan 02 2023"
+    },
+    {
+      "notePath": "zob_memos/计划安排.md",
+      "date": "Fri Jan 06 2023"
+    },
+    {
+      "notePath": "zob_memos/计划安排.md",
+      "date": "Sat Jan 07 2023"
+    },
+    {
+      "notePath": "zob_config/每日计划安排.md",
+      "date": "Sun Jan 15 2023"
+    },
+    {
+      "notePath": "zob_config/每日计划安排.md",
+      "date": "Mon Jan 16 2023"
+    },
+    {
+      "notePath": "zob_config/每日计划安排.md",
+      "date": "Sat Jan 21 2023"
+    }
+  ],
+  "completePastItems": true,
+  "circularProgress": false,
+  "nowAndNextInStatusBar": true,
+  "showTaskNotification": true,
+  "timelineZoomLevel": 2
+}

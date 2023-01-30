@@ -1,0 +1,292 @@
+{
+  "bookmarks": [
+    {
+      "id": "381951495",
+      "name": "Markdown",
+      "url": "https://markdown.com.cn/",
+      "description": "",
+      "category": [
+        "计算机",
+        "编程语言"
+      ],
+      "tags": "标记语言",
+      "created": 1673671800000,
+      "modified": 1673671800000
+    },
+    {
+      "id": "-1937386554",
+      "name": "FAST Lab",
+      "url": "http://zju-fast.com/",
+      "description": "",
+      "category": [
+        "科研"
+      ],
+      "tags": "",
+      "created": 1672898160000,
+      "modified": 1672899060000
+    },
+    {
+      "id": "-1464841424",
+      "name": "Zotero | Your personal research assistant",
+      "url": "https://www.zotero.org/",
+      "description": "Zotero is a free, easy-to-use tool to help you collect, organize, cite, and share research.",
+      "category": [
+        "工具"
+      ],
+      "tags": "",
+      "created": 1672898160000,
+      "modified": 1672898160000
+    },
+    {
+      "id": "-1979974623",
+      "name": "Obsidian Forum",
+      "url": "https://forum.obsidian.md/",
+      "description": "A place for Obsidian users to discuss Obsidian and knowledge management",
+      "category": [
+        "工具"
+      ],
+      "tags": "",
+      "created": 1672898160000,
+      "modified": 1672898160000
+    },
+    {
+      "id": "-342874130",
+      "name": "哔哩哔哩 (゜-゜)つロ 干杯~-bilibili",
+      "url": "https://www.bilibili.com/",
+      "description": "哔哩哔哩（bilibili.com)是国内知名的视频弹幕网站，这里有及时的动漫新番，活跃的ACG氛围，有创意的Up主。大家可以在这里找到许多欢乐。",
+      "category": [
+        "其他"
+      ],
+      "tags": "",
+      "created": 1672898160000,
+      "modified": 1672898160000
+    },
+    {
+      "id": "203674803",
+      "name": "HiNative | 一个针对外语学习者的问答平台。",
+      "url": "https://zh.hinative.com/",
+      "description": "HiNative是一个问与答的平台，您可以在这里向各国的母语者提问关于文化，语言等问题。我们提供110种以上语言。",
+      "category": [
+        "工具"
+      ],
+      "tags": "",
+      "created": 1672898160000,
+      "modified": 1672898160000
+    },
+    {
+      "id": "-470083879",
+      "name": "百度翻译-200种语言互译、沟通全世界！",
+      "url": "https://fanyi.baidu.com/?aldtype=85&keyfrom=alading#en/zh/",
+      "description": "百度翻译提供即时免费200+语言翻译服务，拥有网页、APP、API产品，支持文本翻译、文档翻译、图片翻译等特色功能，满足用户查词翻译、文献翻译、合同翻译等需求，随时随地沟通全世界",
+      "category": [
+        "工具"
+      ],
+      "tags": "",
+      "created": 1672898160000,
+      "modified": 1672898160000
+    },
+    {
+      "id": "-1157021215",
+      "name": "\n    豆瓣读书\n",
+      "url": "https://book.douban.com/",
+      "description": "记录你读过的、想读和正在读的书，顺便打分，添加标签及个人附注，写评论。根据你的口味，推荐适合的书给你。",
+      "category": [
+        "工具"
+      ],
+      "tags": "",
+      "created": 1672898160000,
+      "modified": 1672898160000
+    },
+    {
+      "id": "496065685",
+      "name": "小白工具箱 - 盒子部落旗下网站",
+      "url": "https://www.ooopn.com/",
+      "description": "小白工具箱",
+      "category": [
+        "工具"
+      ],
+      "tags": "",
+      "created": 1672898160000,
+      "modified": 1672898160000
+    },
+    {
+      "id": "-950287572",
+      "name": "谷歌学术镜像_Google镜像站",
+      "url": "http://scholar.scqylaw.com/",
+      "description": "主要提供谷歌学术搜索Google Scholar镜像和谷歌网页搜索镜像的导航站,实时更新最新镜像网站",
+      "category": [
+        "工具"
+      ],
+      "tags": "",
+      "created": 1672898160000,
+      "modified": 1672898160000
+    },
+    {
+      "id": "507668151",
+      "name": "ROS-中文教程",
+      "url": "http://www.autolabor.com.cn/book/ROSTutorials/chapter1/12-roskai-fa-gong-ju-an-zhuang/124-an-zhuang-ros.html",
+      "description": "",
+      "category": [
+        "计算机",
+        "热门项目"
+      ],
+      "tags": "机器人",
+      "created": 1672898160000,
+      "modified": 1672898160000
+    },
+    {
+      "id": "-1899508311",
+      "name": "ROS",
+      "url": "https://www.ros.org/",
+      "description": "",
+      "category": [
+        "计算机",
+        "热门项目"
+      ],
+      "tags": "机器人",
+      "created": 1672898160000,
+      "modified": 1672898160000
+    },
+    {
+      "id": "-222528038",
+      "name": "LeetCode",
+      "url": "https://leetcode.cn/",
+      "description": "",
+      "category": [
+        "计算机",
+        "常用论坛"
+      ],
+      "tags": "",
+      "created": 1672898160000,
+      "modified": 1672898160000
+    },
+    {
+      "id": "2048931009",
+      "name": "Stack Overflow - Where Developers Learn, Share, & Build Careers",
+      "url": "https://stackoverflow.com/",
+      "description": "Stack Overflow is the largest, most trusted online community for developers to learn, share​ ​their programming ​knowledge, and build their careers.",
+      "category": [
+        "计算机",
+        "常用论坛"
+      ],
+      "tags": "",
+      "created": 1672898160000,
+      "modified": 1672898160000
+    },
+    {
+      "id": "-312307766",
+      "name": "GitHub: Let’s build from here · GitHub",
+      "url": "https://github.com/",
+      "description": "GitHub is where over 94 million developers shape the future of software, together. Contribute to the open source community, manage your Git repositories, review code like a pro, track bugs and features, power your CI/CD and DevOps workflows, and secure code before you commit it.",
+      "category": [
+        "计算机",
+        "常用论坛"
+      ],
+      "tags": "",
+      "created": 1672898160000,
+      "modified": 1672898160000
+    },
+    {
+      "id": "-1276562783",
+      "name": "GCC",
+      "url": "https://gcc.gnu.org/",
+      "description": "",
+      "category": [
+        "计算机",
+        "热门项目"
+      ],
+      "tags": "编程工具",
+      "created": 1672898160000,
+      "modified": 1672898160000
+    },
+    {
+      "id": "1808075437",
+      "name": "Home - OpenCV",
+      "url": "https://opencv.org/",
+      "description": "OpenCV provides a real-time optimized Computer Vision library, tools, and hardware. It also supports model execution for Machine Learning (ML) and Artificial Intelligence (AI).",
+      "category": [
+        "计算机",
+        "热门项目"
+      ],
+      "tags": "三方库",
+      "created": 1672898160000,
+      "modified": 1672898520000
+    },
+    {
+      "id": "-1288601259",
+      "name": "Python",
+      "url": "https://docs.python.org/3/",
+      "description": "",
+      "category": [
+        "计算机",
+        "编程语言"
+      ],
+      "tags": "Python",
+      "created": 1672898160000,
+      "modified": 1672898517456
+    },
+    {
+      "id": "1369525054",
+      "name": "C/C++",
+      "url": "https://en.cppreference.com/",
+      "description": "",
+      "category": [
+        "计算机",
+        "编程语言"
+      ],
+      "tags": "C/C++",
+      "created": 1672896060000,
+      "modified": 1672898280000
+    }
+  ],
+  "categories": [
+    {
+      "value": "ROOT",
+      "text": "ROOT",
+      "label": "ROOT",
+      "children": []
+    },
+    {
+      "value": "计算机",
+      "text": "计算机",
+      "label": "计算机",
+      "children": [
+        {
+          "value": "常用论坛",
+          "text": "常用论坛",
+          "label": "常用论坛"
+        },
+        {
+          "value": "编程语言",
+          "text": "编程语言",
+          "label": "编程语言"
+        },
+        {
+          "value": "热门项目",
+          "text": "热门项目",
+          "label": "热门项目"
+        },
+        {
+          "value": "其他",
+          "text": "其他",
+          "label": "其他"
+        }
+      ]
+    },
+    {
+      "value": "科研",
+      "text": "科研",
+      "label": "科研"
+    },
+    {
+      "value": "工具",
+      "text": "工具",
+      "label": "工具"
+    },
+    {
+      "value": "其他",
+      "text": "其他",
+      "label": "其他"
+    }
+  ]
+}

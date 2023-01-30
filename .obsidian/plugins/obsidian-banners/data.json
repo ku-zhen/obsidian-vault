@@ -1,0 +1,19 @@
+{
+  "height": 222,
+  "style": "solid",
+  "showInInternalEmbed": false,
+  "internalEmbedHeight": 100,
+  "showInPreviewEmbed": false,
+  "previewEmbedHeight": null,
+  "frontmatterField": null,
+  "bannerDragModifier": "none",
+  "iconHorizontalAlignment": "custom",
+  "iconHorizontalTransform": null,
+  "iconVerticalAlignment": "custom",
+  "iconVerticalTransform": "-1em",
+  "useTwemoji": false,
+  "showPreviewInLocalModal": true,
+  "localSuggestionsLimit": null,
+  "bannersFolder": "zob_config/banners",
+  "allowMobileDrag": false
+}

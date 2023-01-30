@@ -1,0 +1,1982 @@
+{
+  "version": 2,
+  "projects": [
+    {
+      "fieldConfig": {
+        "status": {
+          "options": [
+            "待完成",
+            "进行中",
+            "已完成",
+            "搁置"
+          ],
+          "richText": false
+        },
+        "entry": {
+          "richText": true
+        }
+      },
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "1 文献笔记收纳盒/论文笔记",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "groupByField": "status",
+            "columns": {
+              "待完成": {
+                "weight": 0
+              },
+              "进行中": {
+                "weight": 1
+              },
+              "搁置": {
+                "weight": 2
+              },
+              "已完成": {
+                "weight": 3
+              }
+            },
+            "priorityField": "create",
+            "columnWidth": 290,
+            "includeFields": [
+              "create"
+            ]
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#a882ff",
+                "condition": {
+                  "field": "publish",
+                  "operator": "is-checked"
+                }
+              }
+            ]
+          },
+          "id": "7db90f02-71ab-4fca-bb93-bdbe7fcc7c7d",
+          "name": "Status",
+          "type": "board"
+        },
+        {
+          "config": {
+            "fieldConfig": {
+              "banner": {
+                "hide": true
+              },
+              "citeKey": {
+                "hide": true
+              },
+              "entry": {
+                "hide": false,
+                "width": 110
+              },
+              "year": {
+                "hide": false
+              },
+              "DOI": {
+                "hide": true
+              },
+              "path": {
+                "hide": true
+              },
+              "cssclass": {
+                "hide": true
+              },
+              "update": {
+                "width": 128
+              },
+              "tags": {
+                "width": 180
+              },
+              "aliases": {
+                "width": 268
+              },
+              "create": {
+                "width": 119,
+                "hide": true
+              },
+              "status": {
+                "width": 124
+              },
+              "name": {
+                "width": 336
+              },
+              "cover": {
+                "hide": true
+              },
+              "douban_url": {
+                "hide": true
+              },
+              "author": {
+                "hide": true
+              },
+              "isbn": {
+                "hide": true
+              },
+              "rating": {
+                "hide": true
+              },
+              "pagecount": {
+                "hide": true
+              },
+              "pageprogress": {
+                "hide": true
+              },
+              "grade": {
+                "hide": true
+              },
+              "readtime": {
+                "hide": true
+              },
+              "publish": {
+                "hide": true
+              },
+              "cards-deck": {
+                "hide": true
+              },
+              "priority": {
+                "hide": true
+              },
+              "\rciteKey": {
+                "hide": true
+              }
+            },
+            "sortField": "create",
+            "sortAsc": false
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#00fafa",
+                "condition": {
+                  "field": "status",
+                  "operator": "is",
+                  "value": "进行中"
+                }
+              },
+              {
+                "color": "#fe0101",
+                "condition": {
+                  "field": "status",
+                  "operator": "is",
+                  "value": "待完成"
+                }
+              }
+            ]
+          },
+          "id": "ac8fa81e-ba09-4b96-931a-23387a200b90",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {
+            "checkField": "publish",
+            "interval": "month"
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#000000",
+                "condition": {
+                  "field": "status",
+                  "operator": "is",
+                  "value": "已完成"
+                }
+              },
+              {
+                "color": "#00fafa",
+                "condition": {
+                  "field": "status",
+                  "operator": "is",
+                  "value": "进行中"
+                }
+              },
+              {
+                "color": "#ff0000",
+                "condition": {
+                  "field": "status",
+                  "operator": "is",
+                  "value": "搁置"
+                }
+              },
+              {
+                "color": "#ff0000",
+                "condition": {
+                  "field": "status",
+                  "operator": "is",
+                  "value": "待完成"
+                }
+              }
+            ]
+          },
+          "id": "b23e8bf5-617c-44f7-bb31-3ff7c3e300fd",
+          "name": "Calendar",
+          "type": "calendar"
+        },
+        {
+          "config": {
+            "coverField": "banner",
+            "fitStyle": "cover",
+            "includeFields": []
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#000000",
+                "condition": {
+                  "field": "status",
+                  "operator": "is",
+                  "value": "已完成"
+                }
+              },
+              {
+                "color": "#ff0000",
+                "condition": {
+                  "field": "status",
+                  "operator": "is",
+                  "value": "待完成"
+                }
+              },
+              {
+                "color": "#ff0000",
+                "condition": {
+                  "field": "status",
+                  "operator": "is",
+                  "value": "搁置"
+                }
+              },
+              {
+                "color": "#07e3f2",
+                "condition": {
+                  "field": "status",
+                  "operator": "is",
+                  "value": "进行中"
+                }
+              }
+            ]
+          },
+          "id": "c2851632-24f2-4de7-b8b7-8139aedc8edb",
+          "name": "Gallery",
+          "type": "gallery"
+        }
+      ],
+      "name": "A 论文研读计划",
+      "id": "20388132-2493-4452-93bb-8d3b79473e0d"
+    },
+    {
+      "fieldConfig": {
+        "status": {
+          "options": [
+            "待完成",
+            "进行中",
+            "已完成",
+            "搁置"
+          ]
+        }
+      },
+      "defaultName": "",
+      "templates": [
+        "zob_config/template/笔记模板/问题卡片.md"
+      ],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "2 日常问题收纳盒",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "groupByField": "status",
+            "columns": {
+              "0": {
+                "weight": 0
+              },
+              "No status": {
+                "weight": 1
+              },
+              "待完成": {
+                "weight": 2
+              },
+              "进行中": {
+                "weight": 3
+              },
+              "搁置": {
+                "weight": 4
+              },
+              "已完成": {
+                "weight": 5
+              }
+            },
+            "priorityField": "priority",
+            "columnWidth": 290
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#a882ff",
+                "condition": {
+                  "field": "publish",
+                  "operator": "is-checked"
+                }
+              }
+            ]
+          },
+          "id": "2f04b684-af3d-4a3b-a797-4b9821ce8121",
+          "name": "Status",
+          "type": "board"
+        },
+        {
+          "config": {
+            "fieldConfig": {
+              "banner": {
+                "hide": true
+              },
+              "citeKey": {
+                "hide": true
+              },
+              "entry": {
+                "hide": true
+              },
+              "year": {
+                "hide": true
+              },
+              "DOI": {
+                "hide": true
+              },
+              "path": {
+                "hide": true
+              },
+              "cssclass": {
+                "hide": true
+              },
+              "update": {
+                "width": 135
+              },
+              "tags": {
+                "width": 288
+              },
+              "aliases": {
+                "width": 197
+              },
+              "create": {
+                "width": 119
+              },
+              "status": {
+                "width": 124
+              },
+              "name": {
+                "width": 306
+              },
+              "cover": {
+                "hide": true
+              },
+              "douban_url": {
+                "hide": true
+              },
+              "author": {
+                "hide": true
+              },
+              "isbn": {
+                "hide": true
+              },
+              "rating": {
+                "hide": true
+              },
+              "pagecount": {
+                "hide": true
+              },
+              "pageprogress": {
+                "hide": true
+              },
+              "grade": {
+                "hide": true
+              },
+              "readtime": {
+                "hide": true
+              },
+              "publish": {
+                "hide": true
+              },
+              "cards-deck": {
+                "hide": true
+              },
+              "priority": {
+                "hide": true
+              }
+            },
+            "sortField": "create",
+            "sortAsc": false
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#a882ff",
+                "condition": {
+                  "field": "status",
+                  "operator": "is",
+                  "value": "进行中"
+                }
+              },
+              {
+                "color": "#fe0101",
+                "condition": {
+                  "field": "status",
+                  "operator": "is",
+                  "value": "待完成"
+                }
+              }
+            ]
+          },
+          "id": "08fbb101-2241-4a14-99ba-1f7ed47c59f7",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {
+            "checkField": "publish",
+            "interval": "3days"
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#000000",
+                "condition": {
+                  "field": "status",
+                  "operator": "is",
+                  "value": "已完成"
+                }
+              },
+              {
+                "color": "#05f6fa",
+                "condition": {
+                  "field": "status",
+                  "operator": "is",
+                  "value": "进行中"
+                }
+              },
+              {
+                "color": "#ff0000",
+                "condition": {
+                  "field": "status",
+                  "operator": "is",
+                  "value": "搁置"
+                }
+              },
+              {
+                "color": "#ff0000",
+                "condition": {
+                  "field": "status",
+                  "operator": "is",
+                  "value": "待完成"
+                }
+              }
+            ]
+          },
+          "id": "0289d487-6601-4dd1-b238-018a56590470",
+          "name": "Calendar",
+          "type": "calendar"
+        },
+        {
+          "config": {
+            "coverField": "banner",
+            "fitStyle": "cover"
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#000000",
+                "condition": {
+                  "field": "status",
+                  "operator": "is",
+                  "value": "已完成"
+                }
+              },
+              {
+                "color": "#ff0000",
+                "condition": {
+                  "field": "citeKey",
+                  "operator": "is",
+                  "value": "待完成"
+                }
+              },
+              {
+                "color": "#ff0000",
+                "condition": {
+                  "field": "citeKey",
+                  "operator": "is",
+                  "value": "搁置"
+                }
+              },
+              {
+                "color": "#07e3f2",
+                "condition": {
+                  "field": "citeKey",
+                  "operator": "is",
+                  "value": "进行中"
+                }
+              }
+            ]
+          },
+          "id": "5f43df07-f1d8-48d7-b046-535857bbaacd",
+          "name": "Gallery",
+          "type": "gallery"
+        }
+      ],
+      "name": "2 日常问题收纳盒",
+      "id": "4576c31c-d3c7-420a-9bd9-2c723e9d0aa8"
+    },
+    {
+      "fieldConfig": {
+        "status": {
+          "options": [
+            "待完成",
+            "进行中",
+            "已完成",
+            "搁置"
+          ]
+        },
+        "cover": {
+          "richText": true
+        }
+      },
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "1 文献笔记收纳盒",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "groupByField": "status",
+            "columns": {
+              "待完成": {
+                "weight": 0
+              },
+              "进行中": {
+                "weight": 1
+              },
+              "搁置": {
+                "weight": 2
+              },
+              "已完成": {
+                "weight": 3
+              }
+            },
+            "priorityField": "priority",
+            "columnWidth": 290
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#a882ff",
+                "condition": {
+                  "field": "publish",
+                  "operator": "is-checked"
+                }
+              }
+            ]
+          },
+          "id": "202f3870-9c6b-4498-82ca-263487f81010",
+          "name": "Status",
+          "type": "board"
+        },
+        {
+          "config": {
+            "fieldConfig": {
+              "banner": {
+                "hide": true
+              },
+              "citeKey": {
+                "hide": true
+              },
+              "entry": {
+                "hide": true
+              },
+              "year": {
+                "hide": true
+              },
+              "DOI": {
+                "hide": true
+              },
+              "path": {
+                "hide": true
+              },
+              "cssclass": {
+                "hide": true
+              },
+              "update": {
+                "width": 135
+              },
+              "tags": {
+                "width": 180
+              },
+              "aliases": {
+                "width": 268
+              },
+              "create": {
+                "width": 119,
+                "hide": true
+              },
+              "status": {
+                "width": 124
+              },
+              "name": {
+                "width": 192
+              },
+              "cover": {
+                "hide": true
+              },
+              "douban_url": {
+                "hide": true
+              },
+              "author": {
+                "hide": true
+              },
+              "isbn": {
+                "hide": true
+              },
+              "rating": {
+                "hide": true,
+                "width": 132
+              },
+              "pagecount": {
+                "hide": true
+              },
+              "pageprogress": {
+                "hide": true
+              },
+              "grade": {
+                "hide": true
+              },
+              "readtime": {
+                "hide": true
+              },
+              "publish": {
+                "hide": true
+              },
+              "cards-deck": {
+                "hide": true
+              },
+              "priority": {
+                "hide": true
+              },
+              "\rciteKey": {
+                "hide": true
+              }
+            },
+            "sortField": "create",
+            "sortAsc": false
+          },
+          "filter": {
+            "conditions": [
+              {
+                "field": "name",
+                "operator": "contains",
+                "value": "📙"
+              }
+            ]
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#a882ff",
+                "condition": {
+                  "field": "status",
+                  "operator": "is",
+                  "value": "进行中"
+                }
+              },
+              {
+                "color": "#fe0101",
+                "condition": {
+                  "field": "status",
+                  "operator": "is",
+                  "value": "待完成"
+                }
+              }
+            ]
+          },
+          "id": "f6d8f6fd-389b-40a3-88f2-b09f9eac34de",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {
+            "checkField": "publish",
+            "interval": "2weeks"
+          },
+          "filter": {
+            "conditions": [
+              {
+                "field": "name",
+                "operator": "not-contains",
+                "value": "📰"
+              }
+            ]
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#000000",
+                "condition": {
+                  "field": "status",
+                  "operator": "is",
+                  "value": "已完成"
+                }
+              },
+              {
+                "color": "#05f6fa",
+                "condition": {
+                  "field": "status",
+                  "operator": "is",
+                  "value": "进行中"
+                }
+              },
+              {
+                "color": "#ff0000",
+                "condition": {
+                  "field": "status",
+                  "operator": "is",
+                  "value": "搁置"
+                }
+              },
+              {
+                "color": "#ff0000",
+                "condition": {
+                  "field": "status",
+                  "operator": "is",
+                  "value": "待完成"
+                }
+              }
+            ]
+          },
+          "id": "e3fb5808-a3e4-484c-820c-22f946e8d51f",
+          "name": "Calendar",
+          "type": "calendar"
+        },
+        {
+          "config": {
+            "coverField": "cover",
+            "fitStyle": "contain"
+          },
+          "filter": {
+            "conditions": [
+              {
+                "field": "name",
+                "operator": "contains",
+                "value": "📙"
+              }
+            ]
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#000000",
+                "condition": {
+                  "field": "status",
+                  "operator": "is",
+                  "value": "已完成"
+                }
+              },
+              {
+                "color": "#ff0000",
+                "condition": {
+                  "field": "citeKey",
+                  "operator": "is",
+                  "value": "待完成"
+                }
+              },
+              {
+                "color": "#ff0000",
+                "condition": {
+                  "field": "citeKey",
+                  "operator": "is",
+                  "value": "搁置"
+                }
+              },
+              {
+                "color": "#07e3f2",
+                "condition": {
+                  "field": "citeKey",
+                  "operator": "is",
+                  "value": "进行中"
+                }
+              }
+            ]
+          },
+          "id": "56388081-b862-4d96-8062-228435601601",
+          "name": "Gallery",
+          "type": "gallery"
+        }
+      ],
+      "name": "B 书籍研读计划",
+      "id": "00a2747b-8068-48c0-8d1c-d537c9cc742d"
+    },
+    {
+      "fieldConfig": {
+        "status": {
+          "options": [
+            "待完成",
+            "进行中",
+            "已完成",
+            "搁置"
+          ]
+        }
+      },
+      "defaultName": "",
+      "templates": [
+        "zob_config/template/笔记模板/通用模板.md"
+      ],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "3 理工类型收纳盒",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "groupByField": "status",
+            "columns": {
+              "待完成": {
+                "weight": 0
+              },
+              "进行中": {
+                "weight": 1
+              },
+              "搁置": {
+                "weight": 2
+              },
+              "已完成": {
+                "weight": 3
+              }
+            },
+            "priorityField": "priority",
+            "columnWidth": 290
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#a882ff",
+                "condition": {
+                  "field": "publish",
+                  "operator": "is-checked"
+                }
+              }
+            ]
+          },
+          "id": "07489eb0-a748-4250-85a1-606dcdaf08d9",
+          "name": "Status",
+          "type": "board"
+        },
+        {
+          "config": {
+            "fieldConfig": {
+              "banner": {
+                "hide": true
+              },
+              "citeKey": {
+                "hide": true
+              },
+              "entry": {
+                "hide": true
+              },
+              "year": {
+                "hide": true
+              },
+              "DOI": {
+                "hide": true
+              },
+              "path": {
+                "hide": true
+              },
+              "cssclass": {
+                "hide": true
+              },
+              "update": {
+                "width": 135
+              },
+              "tags": {
+                "width": 180
+              },
+              "aliases": {
+                "width": 268
+              },
+              "create": {
+                "width": 119
+              },
+              "status": {
+                "width": 124
+              },
+              "name": {
+                "width": 336
+              },
+              "cover": {
+                "hide": true
+              },
+              "douban_url": {
+                "hide": true
+              },
+              "author": {
+                "hide": true
+              },
+              "isbn": {
+                "hide": true
+              },
+              "rating": {
+                "hide": true
+              },
+              "pagecount": {
+                "hide": true
+              },
+              "pageprogress": {
+                "hide": true
+              },
+              "grade": {
+                "hide": true
+              },
+              "readtime": {
+                "hide": true
+              },
+              "publish": {
+                "hide": true
+              },
+              "cards-deck": {
+                "hide": true
+              },
+              "priority": {
+                "hide": true
+              }
+            },
+            "sortField": "create",
+            "sortAsc": false
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#a882ff",
+                "condition": {
+                  "field": "status",
+                  "operator": "is",
+                  "value": "进行中"
+                }
+              },
+              {
+                "color": "#fe0101",
+                "condition": {
+                  "field": "status",
+                  "operator": "is",
+                  "value": "待完成"
+                }
+              }
+            ]
+          },
+          "id": "4b9cc74f-df40-421a-897a-5efacf46bdd1",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {
+            "checkField": "publish",
+            "interval": "month"
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#000000",
+                "condition": {
+                  "field": "status",
+                  "operator": "is",
+                  "value": "已完成"
+                }
+              },
+              {
+                "color": "#05f6fa",
+                "condition": {
+                  "field": "status",
+                  "operator": "is",
+                  "value": "进行中"
+                }
+              },
+              {
+                "color": "#ff0000",
+                "condition": {
+                  "field": "status",
+                  "operator": "is",
+                  "value": "搁置"
+                }
+              },
+              {
+                "color": "#ff0000",
+                "condition": {
+                  "field": "status",
+                  "operator": "is",
+                  "value": "待完成"
+                }
+              }
+            ]
+          },
+          "id": "e85ba34c-e2ac-46ac-8090-db844a8e83e9",
+          "name": "Calendar",
+          "type": "calendar"
+        },
+        {
+          "config": {
+            "coverField": "banner",
+            "fitStyle": "cover"
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#000000",
+                "condition": {
+                  "field": "status",
+                  "operator": "is",
+                  "value": "已完成"
+                }
+              },
+              {
+                "color": "#ff0000",
+                "condition": {
+                  "field": "citeKey",
+                  "operator": "is",
+                  "value": "待完成"
+                }
+              },
+              {
+                "color": "#ff0000",
+                "condition": {
+                  "field": "citeKey",
+                  "operator": "is",
+                  "value": "搁置"
+                }
+              },
+              {
+                "color": "#07e3f2",
+                "condition": {
+                  "field": "citeKey",
+                  "operator": "is",
+                  "value": "进行中"
+                }
+              }
+            ]
+          },
+          "id": "5ec2ad39-2c59-44f1-bd76-e3d0358c1fd3",
+          "name": "Gallery",
+          "type": "gallery"
+        }
+      ],
+      "name": "3 理工类型收纳盒",
+      "id": "3b7f77a9-68f8-416f-9ddd-043a4bf9502d"
+    },
+    {
+      "fieldConfig": {
+        "status": {
+          "options": [
+            "待完成",
+            "进行中",
+            "已完成",
+            "搁置"
+          ]
+        }
+      },
+      "defaultName": "",
+      "templates": [
+        "zob_config/template/笔记模板/通用模板.md"
+      ],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "4 社科类型收纳盒",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "groupByField": "status",
+            "columns": {
+              "待完成": {
+                "weight": 0
+              },
+              "进行中": {
+                "weight": 1
+              },
+              "搁置": {
+                "weight": 2
+              },
+              "已完成": {
+                "weight": 3
+              }
+            },
+            "priorityField": "priority",
+            "columnWidth": 290
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#a882ff",
+                "condition": {
+                  "field": "publish",
+                  "operator": "is-checked"
+                }
+              }
+            ]
+          },
+          "id": "6c1bf951-f1a4-4abb-8b9c-cb33e754e8d6",
+          "name": "Status",
+          "type": "board"
+        },
+        {
+          "config": {
+            "fieldConfig": {
+              "banner": {
+                "hide": true
+              },
+              "citeKey": {
+                "hide": true
+              },
+              "entry": {
+                "hide": true
+              },
+              "year": {
+                "hide": true
+              },
+              "DOI": {
+                "hide": true
+              },
+              "path": {
+                "hide": true
+              },
+              "cssclass": {
+                "hide": true
+              },
+              "update": {
+                "width": 135
+              },
+              "tags": {
+                "width": 180
+              },
+              "aliases": {
+                "width": 268
+              },
+              "create": {
+                "width": 119
+              },
+              "status": {
+                "width": 124
+              },
+              "name": {
+                "width": 336
+              },
+              "cover": {
+                "hide": true
+              },
+              "douban_url": {
+                "hide": true
+              },
+              "author": {
+                "hide": true
+              },
+              "isbn": {
+                "hide": true
+              },
+              "rating": {
+                "hide": true
+              },
+              "pagecount": {
+                "hide": true
+              },
+              "pageprogress": {
+                "hide": true
+              },
+              "grade": {
+                "hide": true
+              },
+              "readtime": {
+                "hide": true
+              },
+              "publish": {
+                "hide": true
+              },
+              "cards-deck": {
+                "hide": true
+              },
+              "priority": {
+                "hide": true
+              }
+            },
+            "sortField": "create",
+            "sortAsc": false
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#a882ff",
+                "condition": {
+                  "field": "status",
+                  "operator": "is",
+                  "value": "进行中"
+                }
+              },
+              {
+                "color": "#fe0101",
+                "condition": {
+                  "field": "status",
+                  "operator": "is",
+                  "value": "待完成"
+                }
+              }
+            ]
+          },
+          "id": "a0da2e8f-1387-4c26-ab09-46e0c1b6e6f4",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {
+            "checkField": "publish",
+            "interval": "month"
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#000000",
+                "condition": {
+                  "field": "status",
+                  "operator": "is",
+                  "value": "已完成"
+                }
+              },
+              {
+                "color": "#05f6fa",
+                "condition": {
+                  "field": "status",
+                  "operator": "is",
+                  "value": "进行中"
+                }
+              },
+              {
+                "color": "#ff0000",
+                "condition": {
+                  "field": "status",
+                  "operator": "is",
+                  "value": "搁置"
+                }
+              },
+              {
+                "color": "#ff0000",
+                "condition": {
+                  "field": "status",
+                  "operator": "is",
+                  "value": "待完成"
+                }
+              }
+            ]
+          },
+          "id": "91676eef-ba63-45db-bf8c-e7ae8365e04e",
+          "name": "Calendar",
+          "type": "calendar"
+        },
+        {
+          "config": {
+            "coverField": "banner",
+            "fitStyle": "cover"
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#000000",
+                "condition": {
+                  "field": "status",
+                  "operator": "is",
+                  "value": "已完成"
+                }
+              },
+              {
+                "color": "#ff0000",
+                "condition": {
+                  "field": "citeKey",
+                  "operator": "is",
+                  "value": "待完成"
+                }
+              },
+              {
+                "color": "#ff0000",
+                "condition": {
+                  "field": "citeKey",
+                  "operator": "is",
+                  "value": "搁置"
+                }
+              },
+              {
+                "color": "#07e3f2",
+                "condition": {
+                  "field": "citeKey",
+                  "operator": "is",
+                  "value": "进行中"
+                }
+              }
+            ]
+          },
+          "id": "c482adb4-7ce7-4101-b8d6-48387fa1ef06",
+          "name": "Gallery",
+          "type": "gallery"
+        }
+      ],
+      "name": "4 社科类型收纳盒",
+      "id": "8c56d298-e1ac-42d3-acf9-1d795d04f402"
+    },
+    {
+      "fieldConfig": {
+        "status": {
+          "options": [
+            "待完成",
+            "进行中",
+            "已完成",
+            "搁置"
+          ]
+        }
+      },
+      "defaultName": "",
+      "templates": [
+        "zob_config/template/笔记模板/项目计划模板.md"
+      ],
+      "excludedNotes": [],
+      "isDefault": true,
+      "dataSource": {
+        "kind": "tag",
+        "config": {
+          "tag": "#project"
+        }
+      },
+      "newNotesFolder": "0 任务管理收纳盒",
+      "views": [
+        {
+          "config": {
+            "groupByField": "status",
+            "columns": {
+              "待完成": {
+                "weight": 0
+              },
+              "进行中": {
+                "weight": 1
+              },
+              "搁置": {
+                "weight": 2
+              },
+              "已完成": {
+                "weight": 3
+              }
+            },
+            "priorityField": "priority",
+            "includeFields": [],
+            "columnWidth": 290
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#a882ff",
+                "condition": {
+                  "field": "publish",
+                  "operator": "is-checked"
+                }
+              }
+            ]
+          },
+          "id": "28bae9fd-26e5-48c7-99d1-978b9c4dddb6",
+          "name": "Kanban",
+          "type": "board"
+        },
+        {
+          "config": {
+            "checkField": "",
+            "interval": "month",
+            "dateField": "deadline"
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#000000",
+                "condition": {
+                  "field": "status",
+                  "operator": "is",
+                  "value": "已完成"
+                }
+              },
+              {
+                "color": "#05f6fa",
+                "condition": {
+                  "field": "status",
+                  "operator": "is",
+                  "value": "进行中"
+                }
+              },
+              {
+                "color": "#ff0000",
+                "condition": {
+                  "field": "status",
+                  "operator": "is",
+                  "value": "搁置"
+                }
+              },
+              {
+                "color": "#ff0000",
+                "condition": {
+                  "field": "status",
+                  "operator": "is",
+                  "value": "待完成"
+                }
+              }
+            ]
+          },
+          "id": "35f3ebad-cbfd-4c6a-8f27-a2cd47ff426e",
+          "name": "Calendar",
+          "type": "calendar"
+        },
+        {
+          "config": {
+            "coverField": "banner",
+            "fitStyle": "cover",
+            "includeFields": [
+              "create"
+            ]
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#000000",
+                "condition": {
+                  "field": "status",
+                  "operator": "is",
+                  "value": "已完成"
+                }
+              },
+              {
+                "color": "#ff0000",
+                "condition": {
+                  "field": "status",
+                  "operator": "is",
+                  "value": "待完成"
+                }
+              },
+              {
+                "color": "#ff0000",
+                "condition": {
+                  "field": "status",
+                  "operator": "is",
+                  "value": "搁置"
+                }
+              },
+              {
+                "color": "#07e3f2",
+                "condition": {
+                  "field": "status",
+                  "operator": "is",
+                  "value": "进行中"
+                }
+              }
+            ]
+          },
+          "id": "1fb6bd7a-8978-4162-ab9e-6af818faa2c3",
+          "name": "Gallery",
+          "type": "gallery"
+        },
+        {
+          "config": {
+            "fieldConfig": {
+              "banner": {
+                "hide": true
+              },
+              "citeKey": {
+                "hide": true
+              },
+              "entry": {
+                "hide": true
+              },
+              "year": {
+                "hide": true
+              },
+              "DOI": {
+                "hide": true
+              },
+              "path": {
+                "hide": true
+              },
+              "cssclass": {
+                "hide": true
+              },
+              "update": {
+                "width": 135
+              },
+              "tags": {
+                "width": 180
+              },
+              "aliases": {
+                "width": 268
+              },
+              "create": {
+                "width": 119
+              },
+              "status": {
+                "width": 124
+              },
+              "name": {
+                "width": 336
+              },
+              "cover": {
+                "hide": true
+              },
+              "douban_url": {
+                "hide": true
+              },
+              "author": {
+                "hide": true
+              },
+              "isbn": {
+                "hide": true
+              },
+              "rating": {
+                "hide": true
+              },
+              "pagecount": {
+                "hide": true
+              },
+              "pageprogress": {
+                "hide": true
+              },
+              "grade": {
+                "hide": true
+              },
+              "readtime": {
+                "hide": true
+              },
+              "publish": {
+                "hide": true
+              },
+              "cards-deck": {
+                "hide": true
+              },
+              "priority": {
+                "hide": true
+              },
+              "kanban-plugin": {
+                "hide": true
+              },
+              "color": {
+                "hide": true
+              },
+              "icon": {
+                "hide": true
+              },
+              "deadline": {
+                "hide": true
+              },
+              "textColor": {
+                "hide": true
+              }
+            },
+            "sortField": "status",
+            "sortAsc": true
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#a882ff",
+                "condition": {
+                  "field": "status",
+                  "operator": "is",
+                  "value": "进行中"
+                }
+              },
+              {
+                "color": "#fe0101",
+                "condition": {
+                  "field": "status",
+                  "operator": "is",
+                  "value": "待完成"
+                }
+              }
+            ]
+          },
+          "id": "600d6c78-d8d4-48cd-8d76-29da8c8c4cb8",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "name": "0 任务管理收纳盒",
+      "id": "c6e612a7-f0af-4425-bebc-ecef77340f8e"
+    },
+    {
+      "fieldConfig": {
+        "status": {
+          "options": [
+            "待完成",
+            "进行中",
+            "已完成",
+            "搁置"
+          ]
+        }
+      },
+      "defaultName": "",
+      "templates": [
+        "zob_config/template/笔记模板/通用模板.md"
+      ],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "5 杂七杂八收纳盒",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "groupByField": "status",
+            "columns": {
+              "待完成": {
+                "weight": 0
+              },
+              "进行中": {
+                "weight": 1
+              },
+              "搁置": {
+                "weight": 2
+              },
+              "已完成": {
+                "weight": 3
+              }
+            },
+            "priorityField": "priority",
+            "columnWidth": 290
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#a882ff",
+                "condition": {
+                  "field": "publish",
+                  "operator": "is-checked"
+                }
+              }
+            ]
+          },
+          "id": "caab4945-51ff-47a0-8e26-08a56606f91b",
+          "name": "Status",
+          "type": "board"
+        },
+        {
+          "config": {
+            "fieldConfig": {
+              "banner": {
+                "hide": true
+              },
+              "citeKey": {
+                "hide": true
+              },
+              "entry": {
+                "hide": true
+              },
+              "year": {
+                "hide": true
+              },
+              "DOI": {
+                "hide": true
+              },
+              "path": {
+                "hide": true
+              },
+              "cssclass": {
+                "hide": true
+              },
+              "update": {
+                "width": 135
+              },
+              "tags": {
+                "width": 180
+              },
+              "aliases": {
+                "width": 268
+              },
+              "create": {
+                "width": 119
+              },
+              "status": {
+                "width": 124
+              },
+              "name": {
+                "width": 336
+              },
+              "cover": {
+                "hide": true
+              },
+              "douban_url": {
+                "hide": true
+              },
+              "author": {
+                "hide": true
+              },
+              "isbn": {
+                "hide": true
+              },
+              "rating": {
+                "hide": true
+              },
+              "pagecount": {
+                "hide": true
+              },
+              "pageprogress": {
+                "hide": true
+              },
+              "grade": {
+                "hide": true
+              },
+              "readtime": {
+                "hide": true
+              },
+              "publish": {
+                "hide": true
+              },
+              "cards-deck": {
+                "hide": true
+              },
+              "priority": {
+                "hide": true
+              }
+            },
+            "sortField": "create",
+            "sortAsc": false
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#a882ff",
+                "condition": {
+                  "field": "status",
+                  "operator": "is",
+                  "value": "进行中"
+                }
+              },
+              {
+                "color": "#fe0101",
+                "condition": {
+                  "field": "status",
+                  "operator": "is",
+                  "value": "待完成"
+                }
+              }
+            ]
+          },
+          "id": "c7ab5d38-254a-4e43-9f03-540fae21bdb3",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {
+            "checkField": "publish",
+            "interval": "month"
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#000000",
+                "condition": {
+                  "field": "status",
+                  "operator": "is",
+                  "value": "已完成"
+                }
+              },
+              {
+                "color": "#05f6fa",
+                "condition": {
+                  "field": "status",
+                  "operator": "is",
+                  "value": "进行中"
+                }
+              },
+              {
+                "color": "#ff0000",
+                "condition": {
+                  "field": "status",
+                  "operator": "is",
+                  "value": "搁置"
+                }
+              },
+              {
+                "color": "#ff0000",
+                "condition": {
+                  "field": "status",
+                  "operator": "is",
+                  "value": "待完成"
+                }
+              }
+            ]
+          },
+          "id": "68e139f7-c7f8-4010-80c3-f06a3df1345c",
+          "name": "Calendar",
+          "type": "calendar"
+        },
+        {
+          "config": {
+            "coverField": "banner",
+            "fitStyle": "cover"
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#000000",
+                "condition": {
+                  "field": "status",
+                  "operator": "is",
+                  "value": "已完成"
+                }
+              },
+              {
+                "color": "#ff0000",
+                "condition": {
+                  "field": "citeKey",
+                  "operator": "is",
+                  "value": "待完成"
+                }
+              },
+              {
+                "color": "#ff0000",
+                "condition": {
+                  "field": "citeKey",
+                  "operator": "is",
+                  "value": "搁置"
+                }
+              },
+              {
+                "color": "#07e3f2",
+                "condition": {
+                  "field": "citeKey",
+                  "operator": "is",
+                  "value": "进行中"
+                }
+              }
+            ]
+          },
+          "id": "c6fd643b-e4d5-45a2-a073-20b74c117525",
+          "name": "Gallery",
+          "type": "gallery"
+        }
+      ],
+      "name": "5 杂七杂八收纳盒",
+      "id": "0a57759e-609a-470c-81be-686abcdbebf4"
+    }
+  ],
+  "preferences": {
+    "projectSizeLimit": 1000,
+    "frontmatter": {
+      "quoteStrings": "PLAIN"
+    }
+  }
+}
