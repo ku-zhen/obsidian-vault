@@ -180,8 +180,7 @@
       "active": "b42034782c3e0df9",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
-          "/",
-          "zob_config"
+          "/"
         ]
       }
     },
@@ -554,5 +553,5 @@
       }
     }
   },
-  "active": "规划"
+  "active": "计划"
 }

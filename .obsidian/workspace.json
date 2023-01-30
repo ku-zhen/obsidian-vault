@@ -4,17 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "0834844b07302a22",
+        "id": "3f08165661377dc6",
         "type": "tabs",
         "children": [
           {
-            "id": "e9ed0f8d1fb3465b",
+            "id": "b42034782c3e0df9",
             "type": "leaf",
-            "pinned": true,
             "state": {
-              "type": "obsidian-projects",
-              "state": {},
-              "pinned": true
+              "type": "markdown",
+              "state": {
+                "file": "zob_config/计划日历.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -62,6 +65,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "zob_config/计划追踪.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +108,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -153,8 +157,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 301.5,
-    "collapsed": true
+    "width": 301.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -172,17 +175,17 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "e9ed0f8d1fb3465b",
+  "active": "7db81aa5ab8e4299",
   "lastOpenFiles": [
-    "zob_config/工作记录.md",
-    "zob_config/每日计划安排.md",
+    "B 单词背诵/WordsDB.md",
+    "1 文献笔记收纳盒/论文笔记/📰《A Multi-UAV Cooperative Search System Design Based on Man-in-the-loop》.md",
+    "1 文献笔记收纳盒/论文笔记/📰《Path Planning for Autonomous Vehicles in Unknown Semi-structured Environments》.md",
+    "4 社科类型收纳盒/💭 示例.md",
+    "2 日常问题收纳盒/🐞 示例.md",
     "zob_config/计划日历.md",
+    "zob_config/每日计划安排.md",
+    "zob_config/工作记录.md",
     "zob_config/计划追踪.md",
-    "0 任务管理收纳盒/📌 任务规划1.md",
-    "0 任务管理收纳盒/🗃️ Inbox.md",
-    "zob_config/我的书架.md",
-    "zob_config/工作记录.canvas",
-    "zob_config/计划日历.canvas",
-    "1 文献笔记收纳盒/书籍笔记/📙《论贪婪 论虚伪》.md"
+    "0 任务管理收纳盒/📌 任务规划1.md"
   ]
 }
