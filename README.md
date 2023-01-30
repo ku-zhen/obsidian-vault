@@ -8,9 +8,9 @@
 
 ## 仓库截图
 
-![](Pasted%20image%2020230130164229.png)
+![](https://github.com/wuzhen97/obsidian-vault/blob/master/zob_attach/Pasted%20image%2020230130164229.png)
 
-![](Pasted%20image%2020230130164159.png)
+![](https://github.com/wuzhen97/obsidian-vault/blob/master/zob_attach/Pasted%20image%2020230130164159.png)
 
 
-![](Pasted%20image%2020230130164731.png)
+![](https://github.com/wuzhen97/obsidian-vault/blob/master/zob_attach/Pasted%20image%2020230130164731.png)
