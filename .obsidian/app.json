@@ -33,7 +33,7 @@
     "zob_attach/"
   ],
   "fileSortOrder": "byCreatedTime",
-  "useMarkdownLinks": false,
+  "useMarkdownLinks": true,
   "showInlineTitle": false,
   "showIndentGuide": false
 }
