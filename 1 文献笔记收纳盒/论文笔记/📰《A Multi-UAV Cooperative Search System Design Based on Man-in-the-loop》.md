@@ -3,7 +3,7 @@ citeKey: liu_multi-uav_2020
 entry: "[Zotero link](zotero://select/items/@liu_multi-uav_2020)"
 year: 2020
 DOI: 10.1109/ICUS50048.2020.9275014
-banner: "zob_config/banners/003.jpeg"
+banner: "![[2.png]]"
 create: 2023-01-29
 update: 2023-01-29
 status: 已完成
@@ -50,6 +50,7 @@ tags:
 ### 概念汇集箱
 
 1. 摘录概念 1：：概念解释 1
+<!--SR:!2023-01-31,1,230-->
 
 2. 摘录概念 2  
 %%？？%%
