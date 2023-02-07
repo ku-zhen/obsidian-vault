@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4 社科类型收纳盒/💭 示例.md",
+                "file": "zob_config/计划日历.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -65,7 +65,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4 社科类型收纳盒/💭 示例.md",
+                "file": "zob_config/计划日历.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +108,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -177,6 +177,7 @@
   },
   "active": "b42034782c3e0df9",
   "lastOpenFiles": [
+    "4 社科类型收纳盒/💭 示例.md",
     "3 理工类型收纳盒/🗃 Inbox/📑 笔记1.md",
     "2 日常问题收纳盒/🐞 示例.md",
     "1 文献笔记收纳盒/书籍笔记/📙《论贪婪 论虚伪》.md",
@@ -185,7 +186,6 @@
     "0 任务管理收纳盒/🗃️ Inbox.md",
     "0 任务管理收纳盒/📌 任务规划1.md",
     "README.md",
-    "zob_config/计划日历.md",
-    "zob_config/工作记录.md"
+    "zob_config/计划日历.md"
   ]
 }
