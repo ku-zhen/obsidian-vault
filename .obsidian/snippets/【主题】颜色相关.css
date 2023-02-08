@@ -379,9 +379,11 @@ body.fancy-hr-icon .markdown-rendered hr {
 }
 
 /*高亮仅在编辑模式显色，便于anki制卡*/
+/*
 .markdown-preview-view {
   --text-highlight-bg-l-light: 100% !important;
 }
+*/
 
 /*
 .search.svelte-rdace4.svelte-rdace4 {

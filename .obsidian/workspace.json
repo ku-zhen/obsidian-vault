@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "zob_config/计划日历.md",
+                "file": "0 任务管理收纳盒/📌 任务规划1.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -65,7 +65,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "zob_config/计划日历.md",
+                "file": "0 任务管理收纳盒/📌 任务规划1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +108,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -175,8 +175,10 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "b42034782c3e0df9",
+  "active": "b7634e5916d5dd6a",
   "lastOpenFiles": [
+    "zob_config/每日计划安排.md",
+    "zob_config/计划日历.md",
     "4 社科类型收纳盒/💭 示例.md",
     "3 理工类型收纳盒/🗃 Inbox/📑 笔记1.md",
     "2 日常问题收纳盒/🐞 示例.md",
@@ -184,8 +186,6 @@
     "1 文献笔记收纳盒/论文笔记/📰《Path Planning for Autonomous Vehicles in Unknown Semi-structured Environments》.md",
     "1 文献笔记收纳盒/论文笔记/📰《A Multi-UAV Cooperative Search System Design Based on Man-in-the-loop》.md",
     "0 任务管理收纳盒/🗃️ Inbox.md",
-    "0 任务管理收纳盒/📌 任务规划1.md",
-    "README.md",
-    "zob_config/计划日历.md"
+    "0 任务管理收纳盒/📌 任务规划1.md"
   ]
 }
