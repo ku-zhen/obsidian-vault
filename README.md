@@ -1,6 +1,9 @@
+！！！自用，新手慎入，门槛较高！！！！  
+若不喜，请离开，但骂人我会"礼貌回复"。没有任何人欠你 [#ISSUE 1](https://github.com/ku-zhen/obsidian-vault/issues/1) 。
+
 ## 工作流
 
-先参考以下内容，后期补充文字版本：
+
 - [项目、任务、时间管理](https://www.bilibili.com/video/BV1qx4y1u7YA/?spm_id_from=333.999.list.card_archive.click&vd_source=74800c66cbe4fa4a09dc66ef48ca037b)
 - [zotero/obsidian 文献阅读工作流](https://www.bilibili.com/video/BV19Y411C7B4/?spm_id_from=333.999.list.card_archive.click&vd_source=74800c66cbe4fa4a09dc66ef48ca037b)
 
