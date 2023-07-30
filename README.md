@@ -1,5 +1,6 @@
 ！！！自用，新手慎入，门槛较高！！！！  
-若不喜，请离开，但骂人我会"礼貌回复"。没有任何人欠你 [#ISSUE 1](https://github.com/ku-zhen/obsidian-vault/issues/1) 。
+
+若不喜，请离开。
 
 ## 工作流
 
